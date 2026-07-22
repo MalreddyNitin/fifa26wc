@@ -16,4 +16,5 @@ jobs:
       - run: pip install -e ".[dev]"
       - run: ruff check src scripts tests services
       - run: ruff format --check src scripts tests services
-      - run: pytest --cov --cov-report=term-missing
+      - run: coverage run -m pytest
+      - run: coverage report --show-missing
