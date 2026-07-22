@@ -1,0 +1,14 @@
+FROM apache/airflow:2.10.5-python3.12
+COPY --chown=airflow:root pyproject.toml /opt/airflow/project/
+COPY --chown=airflow:root src /opt/airflow/project/src
+RUN pip install --no-cache-dir --no-deps -e /opt/airflow/project && \
+    pip install --no-cache-dir \
+      "curl-cffi==0.13.0" \
+      "joblib==1.5.2" \
+      "pyarrow==21.0.0" \
+      "psycopg[binary]==3.2.10" \
+      "scikit-learn==1.6.1" \
+      "scipy==1.15.3" \
+      "xgboost==3.0.5" \
+      "dbt-core==1.10.13" \
+      "dbt-postgres==1.9.0"

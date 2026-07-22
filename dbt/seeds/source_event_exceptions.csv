@@ -1,0 +1,4 @@
+event_id,exception_type,reason
+907233,finished_missing_score,Source marks the event ended but does not publish a final score
+1192361,finished_missing_score,Source marks the event ended but does not publish a final score
+1259711,finished_missing_score,Source marks the event ended but does not publish a final score

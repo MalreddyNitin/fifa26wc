@@ -1,0 +1,46 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration and source caches
+.env
+.sofascore_cache/
+
+# Reproducible data and model artifacts
+data/raw/
+data/checkpoints/
+data/run_logs/
+data/canonical/
+data/features/
+data/lake/
+data/predictions/
+mlruns/
+models/
+streaming/checkpoints/
+
+# Generated exploratory tables
+matches_enriched.csv
+team_match_features.csv
+team_match_master_advanced.csv
+prematch_model_features.csv
+prematch_model_targets.csv
+feature_coverage_report.csv
+feature_redundancy_report.csv
+
+# Generated dbt state
+dbt/.user.yml
+dbt/logs/
+dbt/target/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+syntax = "proto3";
+package worldcup;
+
+service FootballPrediction {
+  rpc PredictMatch(MatchRequest) returns (JsonResponse);
+  rpc PredictMarkets(MatchRequest) returns (JsonResponse);
+  rpc GetTeamForm(TeamFormRequest) returns (JsonResponse);
+  rpc SimulateTournament(SimulationRequest) returns (JsonResponse);
+}
+
+message MatchRequest {
+  string home_team_id = 1;
+  string away_team_id = 2;
+}
+message TeamFormRequest {
+  string team_id = 1;
+  int32 matches = 2;
+}
+message SimulationRequest {
+  int32 simulations = 1;
+}
+message JsonResponse { string json = 1; }

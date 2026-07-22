@@ -1,0 +1,22 @@
+name: world_cup_intelligence
+version: "1.0.0"
+config-version: 2
+profile: world_cup_intelligence
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+target-path: "target"
+models:
+  world_cup_intelligence:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: staging
+      +materialized: view
+    marts:
+      +schema: analytics
+      +materialized: table
+    features:
+      +schema: features
+      +materialized: table

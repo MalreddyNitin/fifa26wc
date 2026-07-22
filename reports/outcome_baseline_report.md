@@ -1,0 +1,160 @@
+# Outcome baseline report
+
+## Dataset
+
+{
+  "dataset_version": "6ddd46b8fcbeb020",
+  "training_cutoff": "2021-01-12 16:30:00+00:00",
+  "validation_cutoff": "2023-11-16 17:00:00+00:00",
+  "train_rows": 6708,
+  "validation_rows": 1437,
+  "test_rows": 1438,
+  "features": [
+    "competition_type",
+    "round_name",
+    "neutral_site",
+    "elo_difference",
+    "rest_days",
+    "fixture_congestion_14d",
+    "confederation_matchup",
+    "ewm_goal_difference_5",
+    "rolling_goals_for_3",
+    "rolling_goals_for_5",
+    "rolling_goals_against_5",
+    "rolling_goals_against_3",
+    "trend_goals_for_3_minus_10",
+    "ewm_goals_for_5",
+    "trend_goal_difference_3_minus_10",
+    "rolling_goals_for_10",
+    "rolling_goal_difference_3",
+    "ewm_goals_against_5",
+    "rolling_goals_against_10",
+    "rolling_goal_difference_5",
+    "trend_goals_against_3_minus_10",
+    "rolling_goal_difference_10",
+    "opponent_rolling_goals_for_3",
+    "opponent_rolling_goal_difference_10",
+    "opponent_rolling_goals_for_5",
+    "opponent_rolling_goals_against_3",
+    "opponent_rolling_goals_for_10",
+    "opponent_rolling_goal_difference_3",
+    "opponent_rolling_goals_against_10",
+    "opponent_rolling_goal_difference_5",
+    "opponent_rolling_goals_against_5",
+    "rolling_std_goal_difference_5",
+    "rolling_std_goals_against_5",
+    "rolling_std_goals_for_5",
+    "opponent_rolling_std_goal_difference_5",
+    "opponent_rolling_std_goals_against_5",
+    "opponent_rolling_std_goals_for_5",
+    "ewm_against_ALL_Corner kicks_5",
+    "ewm_ALL_Corner kicks_5",
+    "ewm_against_ALL_Shots on target_5",
+    "ewm_ALL_Free kicks_5",
+    "ewm_ALL_Shots off target_5",
+    "ewm_against_ALL_Fouls_5",
+    "ewm_against_ALL_Ball possession_5",
+    "ewm_ALL_Shots on target_5",
+    "ewm_ALL_Fouls_5",
+    "ewm_against_ALL_Free kicks_5",
+    "ewm_ALL_Ball possession_5",
+    "ewm_against_ALL_Shots off target_5",
+    "ewm_against_ALL_Goal kicks_5",
+    "ewm_ALL_Throw-ins_5",
+    "ewm_against_ALL_Throw-ins_5",
+    "ewm_ALL_Goal kicks_5",
+    "ewm_against_ALL_Total saves_5",
+    "ewm_ALL_Goalkeeper saves_5",
+    "ewm_ALL_Total saves_5",
+    "ewm_against_ALL_Goalkeeper saves_5",
+    "ewm_against_ALL_Offsides_5",
+    "ewm_ALL_Offsides_5",
+    "ewm_against_ALL_Yellow cards_5",
+    "ewm_ALL_Yellow cards_5",
+    "ewm_ALL_Total shots_5",
+    "ewm_against_ALL_Total shots_5",
+    "ewm_against_ALL_Shots outside box_5",
+    "ewm_against_ALL_Shots inside box_5",
+    "ewm_ALL_Blocked shots_5",
+    "ewm_ALL_Shots outside box_5",
+    "ewm_against_ALL_Blocked shots_5",
+    "ewm_ALL_Shots inside box_5",
+    "ewm_ALL_Hit woodwork_5",
+    "ewm_against_ALL_Hit woodwork_5",
+    "ewm_ALL_Duels_5",
+    "ewm_against_ALL_Accurate passes_5",
+    "ewm_ALL_Aerial duels_won_5",
+    "ewm_ALL_Aerial duels_total_5",
+    "ewm_against_ALL_Aerial duels_pct_5",
+    "ewm_against_ALL_Aerial duels_won_5",
+    "ewm_ALL_Passes_5",
+    "ewm_against_ALL_Duels_5",
+    "ewm_against_ALL_Ground duels_total_5"
+  ],
+  "classes": [
+    "draw",
+    "loss",
+    "win"
+  ],
+  "metrics": {
+    "log_loss": 0.8618966046721029,
+    "brier_score": 0.5079161961906685,
+    "accuracy": 0.6084840055632823
+  },
+  "elo_metrics": {
+    "log_loss": 0.8975805560900164,
+    "brier_score": 0.5235924897191802,
+    "accuracy": 0.5980528511821975
+  },
+  "world_cup_backtests": {
+    "2014": {
+      "log_loss": 1.0763781167120021,
+      "brier_score": 0.6177789446574393,
+      "accuracy": 0.532258064516129,
+      "matches": 62
+    },
+    "2018": {
+      "log_loss": 1.0173415839230047,
+      "brier_score": 0.6110383807087407,
+      "accuracy": 0.5081967213114754,
+      "matches": 61
+    },
+    "2022": {
+      "log_loss": 1.0521370848430938,
+      "brier_score": 0.6121574408674963,
+      "accuracy": 0.49206349206349204,
+      "matches": 63
+    }
+  }
+}
+
+## Logistic baseline
+
+{'log_loss': 0.8618966046721029, 'brier_score': np.float64(0.5079161961906685), 'accuracy': 0.6084840055632823}
+
+## Elo baseline
+
+{'log_loss': 0.8975805560900164, 'brier_score': np.float64(0.5235924897191802), 'accuracy': 0.5980528511821975}
+
+## World Cup backtests
+
+{
+  "2014": {
+    "log_loss": 1.0763781167120021,
+    "brier_score": 0.6177789446574393,
+    "accuracy": 0.532258064516129,
+    "matches": 62
+  },
+  "2018": {
+    "log_loss": 1.0173415839230047,
+    "brier_score": 0.6110383807087407,
+    "accuracy": 0.5081967213114754,
+    "matches": 61
+  },
+  "2022": {
+    "log_loss": 1.0521370848430938,
+    "brier_score": 0.6121574408674963,
+    "accuracy": 0.49206349206349204,
+    "matches": 63
+  }
+}

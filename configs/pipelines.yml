@@ -1,0 +1,13 @@
+historical_since_date: "1950-01-01"
+recent_refetch_days: 14
+request_interval_seconds: 0.15
+request_retries: 4
+request_timeout_seconds: 30
+event_detail_workers: 4
+statistics_workers: 4
+max_event_pages: 100
+enrich_event_details: true
+raw_root: "data/raw"
+canonical_root: "data/canonical"
+checkpoint_root: "data/checkpoints"
+run_log_root: "data/run_logs"
