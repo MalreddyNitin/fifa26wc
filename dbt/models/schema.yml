@@ -1,0 +1,27 @@
+version: 2
+models:
+  - name: dim_teams
+    columns:
+      - name: team_id
+        tests: [not_null, unique]
+  - name: fct_matches
+    columns:
+      - name: event_id
+        tests: [not_null, unique]
+  - name: fct_team_matches
+    columns:
+      - name: event_id
+        tests: [not_null]
+      - name: side
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['home', 'away']
+    tests:
+      - unique:
+          column_name: "(event_id || '-' || side)"
+  - name: fct_team_match_stats
+    tests:
+      - unique:
+          column_name: "(event_id || '-' || side)"

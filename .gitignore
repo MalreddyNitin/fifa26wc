@@ -22,7 +22,7 @@ data/features/
 data/lake/
 data/predictions/
 mlruns/
-models/
+/models/
 streaming/checkpoints/
 
 # Generated exploratory tables

@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: raw_canonical
+    schema: raw
+    tables:
+      - name: dim_teams
+      - name: fct_matches
+      - name: fct_team_matches
+      - name: fct_team_match_stats
