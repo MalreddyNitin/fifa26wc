@@ -111,6 +111,24 @@ def test_event_fetch_falls_back_when_primary_host_is_forbidden(monkeypatch):
     ]
 
 
+def test_prediction_service_uses_bundled_event_when_cloud_fetch_is_blocked(
+    monkeypatch,
+):
+    payload = {"event": {"id": 12345678}}
+    service = object.__new__(PredictionService)
+    service.sofascore_event_cache = {"12345678": payload}
+
+    def blocked_fetch(_event_id):
+        raise PrematchLookupError("SofaScore event request failed with HTTP 403")
+
+    monkeypatch.setattr(
+        "world_cup_intelligence.inference.fetch_sofascore_event",
+        blocked_fetch,
+    )
+
+    assert service._sofascore_payload(12345678) == payload
+
+
 def test_link_prediction_uses_scraped_context(monkeypatch):
     payload = {
         "event": {

@@ -15,6 +15,7 @@ MODEL_FILES = (
 )
 
 OPTIONAL_DATA_FILES = (
+    "data/reference/sofascore_event_cache.json",
     "data/predictions/tournament_probabilities.parquet",
     "data/predictions/pred_scoreline_samples.parquet",
     "data/canonical/fct_odds_snapshots.parquet",

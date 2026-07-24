@@ -8,6 +8,7 @@
     "models/scoreline/dixon_coles.joblib"
   ],
   "optional_data_files": [
+    "data/reference/sofascore_event_cache.json",
     "data/predictions/tournament_probabilities.parquet",
     "data/predictions/pred_scoreline_samples.parquet",
     "data/canonical/fct_odds_snapshots.parquet",
