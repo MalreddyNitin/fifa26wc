@@ -6,6 +6,7 @@ from world_cup_intelligence.inference import PredictionService
 from world_cup_intelligence.prematch import (
     PrematchLookupError,
     event_from_payload,
+    fetch_sofascore_event,
     parse_sofascore_event_id,
 )
 
@@ -57,6 +58,57 @@ def test_event_payload_builds_model_context():
     assert event.round_name == "Group A"
     assert event.venue_name == "Example Stadium"
     assert event.neutral_site == 1
+
+
+def test_event_fetch_uses_api_host_and_xhr_header(monkeypatch):
+    calls = []
+
+    class Response:
+        status_code = 200
+
+        @staticmethod
+        def json():
+            return {"event": {"id": 12345678}}
+
+    def fake_get(url, **kwargs):
+        calls.append((url, kwargs))
+        return Response()
+
+    monkeypatch.setattr(
+        "world_cup_intelligence.prematch.requests.get",
+        fake_get,
+    )
+
+    assert fetch_sofascore_event(12345678)["event"]["id"] == 12345678
+    assert calls[0][0] == "https://api.sofascore.com/api/v1/event/12345678"
+    assert calls[0][1]["headers"]["x-requested-with"] == "XMLHttpRequest"
+
+
+def test_event_fetch_falls_back_when_primary_host_is_forbidden(monkeypatch):
+    calls = []
+
+    class Response:
+        def __init__(self, status_code):
+            self.status_code = status_code
+
+        @staticmethod
+        def json():
+            return {"event": {"id": 12345678}}
+
+    def fake_get(url, **_kwargs):
+        calls.append(url)
+        return Response(403 if len(calls) == 1 else 200)
+
+    monkeypatch.setattr(
+        "world_cup_intelligence.prematch.requests.get",
+        fake_get,
+    )
+
+    assert fetch_sofascore_event(12345678)["event"]["id"] == 12345678
+    assert calls == [
+        "https://api.sofascore.com/api/v1/event/12345678",
+        "https://www.sofascore.com/api/v1/event/12345678",
+    ]
 
 
 def test_link_prediction_uses_scraped_context(monkeypatch):
