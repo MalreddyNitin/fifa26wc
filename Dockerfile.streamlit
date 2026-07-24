@@ -4,4 +4,6 @@ COPY pyproject.toml ./
 COPY src ./src
 COPY services ./services
 RUN pip install --no-cache-dir -e ".[dashboard]"
+COPY deployment ./deployment
+COPY reports ./reports
 CMD ["streamlit", "run", "services/streamlit/app.py", "--server.address=0.0.0.0"]

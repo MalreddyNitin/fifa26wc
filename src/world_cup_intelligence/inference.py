@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 import joblib
@@ -16,10 +17,17 @@ from .prematch import (
 
 
 class PredictionService:
-    def __init__(self, root):
+    def __init__(self, root, artifact_root=None):
         self.root = Path(root)
-        outcome_path = self.root / "models/outcome/logistic_baseline.joblib"
-        scoreline_path = self.root / "models/scoreline/dixon_coles.joblib"
+        configured_root = artifact_root or os.getenv("WCI_ARTIFACT_ROOT")
+        if configured_root:
+            self.artifact_root = Path(configured_root)
+        elif (self.root / "models/outcome/logistic_baseline.joblib").exists():
+            self.artifact_root = self.root
+        else:
+            self.artifact_root = self.root / "deployment"
+        outcome_path = self.artifact_root / "models/outcome/logistic_baseline.joblib"
+        scoreline_path = self.artifact_root / "models/scoreline/dixon_coles.joblib"
         if not outcome_path.exists() or not scoreline_path.exists():
             raise FileNotFoundError(
                 "Model artifacts are missing; run scripts/train_models.py"
@@ -27,14 +35,16 @@ class PredictionService:
         self.outcome = joblib.load(outcome_path)
         self.scoreline = joblib.load(scoreline_path)
         self.master = pd.read_parquet(
-            self.root / "data/features/team_match_feature_master.parquet"
+            self.artifact_root / "data/features/team_match_feature_master.parquet"
         )
-        self.teams = pd.read_parquet(self.root / "data/canonical/dim_teams.parquet")
+        self.teams = pd.read_parquet(
+            self.artifact_root / "data/canonical/dim_teams.parquet"
+        )
         self.source_team_ids = {
             int(row.sofascore_team_id): row
             for row in self.teams.itertuples(index=False)
         }
-        metadata_path = self.root / "models/outcome/metadata.json"
+        metadata_path = self.artifact_root / "models/outcome/metadata.json"
         self.metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
 
     def _latest(self, team_id, before_kickoff=None, exclude_event_id=None):

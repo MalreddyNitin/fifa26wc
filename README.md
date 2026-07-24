@@ -89,6 +89,23 @@ The optional live profile adds Kafka and Redis:
 docker compose --profile live up -d
 ```
 
+## Public Streamlit deployment
+
+The hosted app can run as a single process: when `API_BASE_URL` is unset,
+Streamlit performs inference in-process from a compact deployment bundle. The
+local Docker stack continues to route predictions through FastAPI.
+
+```powershell
+python scripts/build_deployment_bundle.py
+streamlit run services/streamlit/app.py
+```
+
+For Streamlit Community Cloud, select this repository, the `main` branch, and
+`services/streamlit/app.py` as the entrypoint. `requirements.txt` installs the
+application dependencies. The checked-in deployment bundle contains only the
+minimum historical features and two small trained estimators required for
+inference; the raw lake and full feature matrices remain excluded.
+
 ## Predict from a SofaScore match link
 
 Open the Streamlit **Match predictor** tab and paste the public match-page URL,
