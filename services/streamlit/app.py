@@ -47,6 +47,27 @@ def prediction_service():
     return PredictionService(ROOT, artifact_root=ARTIFACT_ROOT)
 
 
+def render_prediction(prediction):
+    cols = st.columns(3)
+    cols[0].metric("Home win", f"{prediction['home_win']:.1%}")
+    cols[1].metric("Draw", f"{prediction['draw']:.1%}")
+    cols[2].metric("Away win", f"{prediction['away_win']:.1%}")
+    context = prediction.get("prematch_context", {})
+    st.subheader(f"{prediction['home_team_id']} vs {prediction['away_team_id']}")
+    st.write(
+        {
+            "kickoff": context.get("kickoff_utc"),
+            "competition": context.get("tournament_name"),
+            "round": context.get("round_name"),
+            "stadium": context.get("venue_name"),
+            "city": context.get("venue_city"),
+            "country": context.get("venue_country"),
+            "neutral_site": context.get("neutral_site"),
+        }
+    )
+    st.json(prediction)
+
+
 st.title("World Cup Intelligence")
 st.caption(
     "Historical facts, pre-match model outputs, and tournament simulations "
@@ -126,6 +147,7 @@ with predictor:
         if not sofascore_url.strip():
             st.warning("Enter a SofaScore match link.")
             st.stop()
+        st.session_state.pop("sofascore_prediction", None)
         try:
             if API_BASE_URL:
                 response = requests.post(
@@ -139,26 +161,7 @@ with predictor:
                 prediction = prediction_service().predict_sofascore_link(
                     sofascore_url.strip()
                 )
-            cols = st.columns(3)
-            cols[0].metric("Home win", f"{prediction['home_win']:.1%}")
-            cols[1].metric("Draw", f"{prediction['draw']:.1%}")
-            cols[2].metric("Away win", f"{prediction['away_win']:.1%}")
-            context = prediction.get("prematch_context", {})
-            st.subheader(
-                f"{prediction['home_team_id']} vs {prediction['away_team_id']}"
-            )
-            st.write(
-                {
-                    "kickoff": context.get("kickoff_utc"),
-                    "competition": context.get("tournament_name"),
-                    "round": context.get("round_name"),
-                    "stadium": context.get("venue_name"),
-                    "city": context.get("venue_city"),
-                    "country": context.get("venue_country"),
-                    "neutral_site": context.get("neutral_site"),
-                }
-            )
-            st.json(prediction)
+            st.session_state["sofascore_prediction"] = prediction
         except (
             requests.RequestException,
             PrematchLookupError,
@@ -166,6 +169,9 @@ with predictor:
             KeyError,
         ) as exc:
             st.error(f"Prediction service unavailable: {exc}")
+
+    if "sofascore_prediction" in st.session_state:
+        render_prediction(st.session_state["sofascore_prediction"])
 
 with scorelines:
     path = DATA_ROOT / "predictions/pred_scoreline_samples.parquet"

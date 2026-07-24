@@ -1,0 +1,40 @@
+{
+  "12813005": {
+    "event": {
+      "id": 12813005,
+      "startTimestamp": 1784487600,
+      "homeTeam": {
+        "id": 4698,
+        "name": "Spain",
+        "ranking": 1
+      },
+      "awayTeam": {
+        "id": 4819,
+        "name": "Argentina",
+        "ranking": 2
+      },
+      "tournament": {
+        "name": "FIFA World Cup, Knockout",
+        "uniqueTournament": {
+          "name": "FIFA World Cup"
+        }
+      },
+      "roundInfo": {
+        "round": 29,
+        "name": "Final",
+        "slug": "final",
+        "cupRoundType": 1
+      },
+      "venue": {
+        "name": "MetLife Stadium",
+        "city": {
+          "name": "East Rutherford"
+        },
+        "country": {
+          "name": "USA"
+        }
+      },
+      "neutralGround": null
+    }
+  }
+}

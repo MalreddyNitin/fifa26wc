@@ -46,6 +46,14 @@ class PredictionService:
         }
         metadata_path = self.artifact_root / "models/outcome/metadata.json"
         self.metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+        event_cache_path = (
+            self.artifact_root / "data/reference/sofascore_event_cache.json"
+        )
+        self.sofascore_event_cache = (
+            json.loads(event_cache_path.read_text(encoding="utf-8"))
+            if event_cache_path.exists()
+            else {}
+        )
 
     def _latest(self, team_id, before_kickoff=None, exclude_event_id=None):
         rows = self.master.loc[self.master["team_id"].eq(team_id)]
@@ -181,7 +189,21 @@ class PredictionService:
 
     def predict_sofascore_link(self, sofascore_url):
         event_id = parse_sofascore_event_id(sofascore_url)
-        payload = fetch_sofascore_event(event_id)
+        payload = self._sofascore_payload(event_id)
+        return self.predict_sofascore_payload(sofascore_url, payload)
+
+    def _sofascore_payload(self, event_id):
+        try:
+            return fetch_sofascore_event(event_id)
+        except PrematchLookupError:
+            cached = self.sofascore_event_cache.get(str(int(event_id)))
+            if cached is None:
+                raise
+            return cached
+
+    def predict_sofascore_payload(self, sofascore_url, payload):
+        """Predict from event metadata fetched by either the server or browser."""
+        event_id = parse_sofascore_event_id(sofascore_url)
         event_data = payload.get("event", payload)
         home_source_id = event_data.get("homeTeam", {}).get("id")
         away_source_id = event_data.get("awayTeam", {}).get("id")
