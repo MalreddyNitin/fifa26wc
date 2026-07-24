@@ -1,4 +1,5 @@
 import os
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -6,10 +7,12 @@ import plotly.express as px
 import requests
 import streamlit as st
 
-from world_cup_intelligence.inference import PredictionService
-from world_cup_intelligence.prematch import PrematchLookupError
-
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "src"))
+
+from world_cup_intelligence.inference import PredictionService  # noqa: E402
+from world_cup_intelligence.prematch import PrematchLookupError  # noqa: E402
+
 API_BASE_URL = os.getenv("API_BASE_URL")
 ARTIFACT_ROOT = Path(
     os.getenv(
