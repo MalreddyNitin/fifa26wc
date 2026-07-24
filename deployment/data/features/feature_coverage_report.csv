@@ -1,0 +1,1349 @@
+feature,non_null_count,coverage
+event_id,19166,1.0
+kickoff_utc,19166,1.0
+competition_type,19166,1.0
+round_name,1904,0.09934258582907232
+neutral_site,8098,0.42251904414066577
+side,19166,1.0
+team_id,19166,1.0
+opponent_id,19166,1.0
+is_home,19166,1.0
+elo_pre,19166,1.0
+opponent_elo_pre,19166,1.0
+elo_difference,19166,1.0
+ranking_difference,18754,0.9785036001252218
+rest_days,18922,0.9872691224042576
+fixture_congestion_14d,19166,1.0
+confederation_matchup,19166,1.0
+rolling_goals_for_3,18922,0.9872691224042576
+rolling_goals_for_5,18922,0.9872691224042576
+rolling_goals_for_10,18922,0.9872691224042576
+rolling_std_goals_for_5,18705,0.975946989460503
+ewm_goals_for_5,18922,0.9872691224042576
+trend_goals_for_3_minus_10,18922,0.9872691224042576
+rolling_goals_against_3,18922,0.9872691224042576
+rolling_goals_against_5,18922,0.9872691224042576
+rolling_goals_against_10,18922,0.9872691224042576
+rolling_std_goals_against_5,18705,0.975946989460503
+ewm_goals_against_5,18922,0.9872691224042576
+trend_goals_against_3_minus_10,18922,0.9872691224042576
+rolling_goal_difference_3,18922,0.9872691224042576
+rolling_goal_difference_5,18922,0.9872691224042576
+rolling_goal_difference_10,18922,0.9872691224042576
+rolling_std_goal_difference_5,18705,0.975946989460503
+ewm_goal_difference_5,18922,0.9872691224042576
+trend_goal_difference_3_minus_10,18922,0.9872691224042576
+rolling_ALL_Accurate passes_3,8978,0.46843368464990087
+rolling_ALL_Accurate passes_5,10020,0.5228007930710633
+rolling_ALL_Accurate passes_10,11708,0.6108734216842325
+rolling_std_ALL_Accurate passes_5,8509,0.44396326828759264
+ewm_ALL_Accurate passes_5,15993,0.8344464155274967
+trend_ALL_Accurate passes_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Aerial duels_pct_3,8978,0.46843368464990087
+rolling_ALL_Aerial duels_pct_5,10020,0.5228007930710633
+rolling_ALL_Aerial duels_pct_10,11708,0.6108734216842325
+rolling_std_ALL_Aerial duels_pct_5,8509,0.44396326828759264
+ewm_ALL_Aerial duels_pct_5,15993,0.8344464155274967
+trend_ALL_Aerial duels_pct_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Aerial duels_total_3,8978,0.46843368464990087
+rolling_ALL_Aerial duels_total_5,10020,0.5228007930710633
+rolling_ALL_Aerial duels_total_10,11708,0.6108734216842325
+rolling_std_ALL_Aerial duels_total_5,8509,0.44396326828759264
+ewm_ALL_Aerial duels_total_5,15993,0.8344464155274967
+trend_ALL_Aerial duels_total_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Aerial duels_won_3,8978,0.46843368464990087
+rolling_ALL_Aerial duels_won_5,10020,0.5228007930710633
+rolling_ALL_Aerial duels_won_10,11708,0.6108734216842325
+rolling_std_ALL_Aerial duels_won_5,8509,0.44396326828759264
+ewm_ALL_Aerial duels_won_5,15993,0.8344464155274967
+trend_ALL_Aerial duels_won_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Ball possession_3,11208,0.5847855577585307
+rolling_ALL_Ball possession_5,12154,0.6341437963059585
+rolling_ALL_Ball possession_10,13568,0.7079202754878431
+rolling_std_ALL_Ball possession_5,10704,0.5584889909214233
+ewm_ALL_Ball possession_5,16516,0.8617343211937807
+trend_ALL_Ball possession_3_minus_10,11208,0.5847855577585307
+rolling_ALL_Big chances_3,8067,0.4209015965772723
+rolling_ALL_Big chances_5,8939,0.46639883126369613
+rolling_ALL_Big chances_10,10410,0.5431493269331107
+rolling_std_ALL_Big chances_5,7551,0.39397892100594806
+ewm_ALL_Big chances_5,15714,0.819889387456955
+trend_ALL_Big chances_3_minus_10,8067,0.4209015965772723
+rolling_ALL_Big chances missed_3,7857,0.4099446937284775
+rolling_ALL_Big chances missed_5,8764,0.4572680788897005
+rolling_ALL_Big chances missed_10,10236,0.5340707502869665
+rolling_std_ALL_Big chances missed_5,7247,0.37811749973912134
+ewm_ALL_Big chances missed_5,15652,0.816654492330168
+trend_ALL_Big chances missed_3_minus_10,7857,0.4099446937284775
+rolling_ALL_Big chances scored_3,7642,0.3987269122404258
+rolling_ALL_Big chances scored_5,8626,0.4500678284462068
+rolling_ALL_Big chances scored_10,10167,0.5304706250652197
+rolling_std_ALL_Big chances scored_5,6856,0.3577167901492226
+ewm_ALL_Big chances scored_5,15650,0.8165501408744652
+trend_ALL_Big chances scored_3_minus_10,7642,0.3987269122404258
+rolling_ALL_Big saves_3,3626,0.1891891891891892
+rolling_ALL_Big saves_5,4326,0.22571219868517164
+rolling_ALL_Big saves_10,5589,0.2916101429614943
+rolling_std_ALL_Big saves_5,3059,0.15960555149744338
+ewm_ALL_Big saves_5,14107,0.7360429927997496
+trend_ALL_Big saves_3_minus_10,3626,0.1891891891891892
+rolling_ALL_Blocked shots_3,9514,0.49639987477825315
+rolling_ALL_Blocked shots_5,10514,0.5485756026296567
+rolling_ALL_Blocked shots_10,12146,0.6337263904831473
+rolling_std_ALL_Blocked shots_5,9095,0.4745382448085151
+ewm_ALL_Blocked shots_5,16136,0.8419075446102473
+trend_ALL_Blocked shots_3_minus_10,9514,0.49639987477825315
+rolling_ALL_Clearances_3,8298,0.43295418971094646
+rolling_ALL_Clearances_5,9193,0.4796514661379526
+rolling_ALL_Clearances_10,10740,0.5603673171240738
+rolling_std_ALL_Clearances_5,7792,0.4065532714181363
+ewm_ALL_Clearances_5,15779,0.8232808097672962
+trend_ALL_Clearances_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Corner kicks_3,11318,0.5905248878221852
+rolling_ALL_Corner kicks_5,12212,0.6371699885213399
+rolling_ALL_Corner kicks_10,13587,0.7089116143170198
+rolling_std_ALL_Corner kicks_5,10867,0.5669936345612021
+ewm_ALL_Corner kicks_5,16530,0.8624647813837003
+trend_ALL_Corner kicks_3_minus_10,11318,0.5905248878221852
+rolling_ALL_Crosses_pct_3,8298,0.43295418971094646
+rolling_ALL_Crosses_pct_5,9193,0.4796514661379526
+rolling_ALL_Crosses_pct_10,10740,0.5603673171240738
+rolling_std_ALL_Crosses_pct_5,7792,0.4065532714181363
+ewm_ALL_Crosses_pct_5,15779,0.8232808097672962
+trend_ALL_Crosses_pct_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Crosses_total_3,8298,0.43295418971094646
+rolling_ALL_Crosses_total_5,9193,0.4796514661379526
+rolling_ALL_Crosses_total_10,10740,0.5603673171240738
+rolling_std_ALL_Crosses_total_5,7792,0.4065532714181363
+ewm_ALL_Crosses_total_5,15779,0.8232808097672962
+trend_ALL_Crosses_total_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Crosses_won_3,8298,0.43295418971094646
+rolling_ALL_Crosses_won_5,9193,0.4796514661379526
+rolling_ALL_Crosses_won_10,10740,0.5603673171240738
+rolling_std_ALL_Crosses_won_5,7792,0.4065532714181363
+ewm_ALL_Crosses_won_5,15779,0.8232808097672962
+trend_ALL_Crosses_won_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Dispossessed_3,8298,0.43295418971094646
+rolling_ALL_Dispossessed_5,9193,0.4796514661379526
+rolling_ALL_Dispossessed_10,10740,0.5603673171240738
+rolling_std_ALL_Dispossessed_5,7792,0.4065532714181363
+ewm_ALL_Dispossessed_5,15779,0.8232808097672962
+trend_ALL_Dispossessed_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Distance covered_3,0,0.0
+rolling_ALL_Distance covered_5,0,0.0
+rolling_ALL_Distance covered_10,0,0.0
+rolling_std_ALL_Distance covered_5,0,0.0
+ewm_ALL_Distance covered_5,0,0.0
+trend_ALL_Distance covered_3_minus_10,0,0.0
+rolling_ALL_Dribbles_pct_3,8298,0.43295418971094646
+rolling_ALL_Dribbles_pct_5,9193,0.4796514661379526
+rolling_ALL_Dribbles_pct_10,10740,0.5603673171240738
+rolling_std_ALL_Dribbles_pct_5,7792,0.4065532714181363
+ewm_ALL_Dribbles_pct_5,15779,0.8232808097672962
+trend_ALL_Dribbles_pct_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Dribbles_total_3,8298,0.43295418971094646
+rolling_ALL_Dribbles_total_5,9193,0.4796514661379526
+rolling_ALL_Dribbles_total_10,10740,0.5603673171240738
+rolling_std_ALL_Dribbles_total_5,7792,0.4065532714181363
+ewm_ALL_Dribbles_total_5,15779,0.8232808097672962
+trend_ALL_Dribbles_total_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Dribbles_won_3,8298,0.43295418971094646
+rolling_ALL_Dribbles_won_5,9193,0.4796514661379526
+rolling_ALL_Dribbles_won_10,10740,0.5603673171240738
+rolling_std_ALL_Dribbles_won_5,7792,0.4065532714181363
+ewm_ALL_Dribbles_won_5,15779,0.8232808097672962
+trend_ALL_Dribbles_won_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Duels_3,8977,0.46838150892204944
+rolling_ALL_Duels_5,10020,0.5228007930710633
+rolling_ALL_Duels_10,11708,0.6108734216842325
+rolling_std_ALL_Duels_5,8508,0.4439110925597412
+ewm_ALL_Duels_5,15993,0.8344464155274967
+trend_ALL_Duels_3_minus_10,8977,0.46838150892204944
+rolling_ALL_Errors lead to a goal_3,2047,0.10680371491182301
+rolling_ALL_Errors lead to a goal_5,2759,0.14395283314202234
+rolling_ALL_Errors lead to a goal_10,3904,0.20369404153187937
+rolling_std_ALL_Errors lead to a goal_5,1001,0.05222790357925493
+ewm_ALL_Errors lead to a goal_5,12551,0.6548575602629657
+trend_ALL_Errors lead to a goal_3_minus_10,2047,0.10680371491182301
+rolling_ALL_Errors lead to a shot_3,2926,0.15266617969320673
+rolling_ALL_Errors lead to a shot_5,3629,0.1893457163727434
+rolling_ALL_Errors lead to a shot_10,4829,0.25195658979442764
+rolling_std_ALL_Errors lead to a shot_5,2099,0.109516852760096
+ewm_ALL_Errors lead to a shot_5,13727,0.7162162162162162
+trend_ALL_Errors lead to a shot_3_minus_10,2926,0.15266617969320673
+rolling_ALL_Expected goals_3,1989,0.10377752269644161
+rolling_ALL_Expected goals_5,2263,0.11807367212772618
+rolling_ALL_Expected goals_10,2746,0.1432745486799541
+rolling_std_ALL_Expected goals_5,1784,0.09308149848690389
+ewm_ALL_Expected goals_5,3222,0.16811019513722217
+trend_ALL_Expected goals_3_minus_10,1989,0.10377752269644161
+rolling_ALL_Final third entries_3,8262,0.43107586350829596
+rolling_ALL_Final third entries_5,9175,0.4787123030366274
+rolling_ALL_Final third entries_10,10729,0.5597933841177084
+rolling_std_ALL_Final third entries_5,7756,0.40467494521548575
+ewm_ALL_Final third entries_5,15776,0.823124282583742
+trend_ALL_Final third entries_3_minus_10,8262,0.43107586350829596
+rolling_ALL_Final third phase_pct_3,4264,0.22247730355838463
+rolling_ALL_Final third phase_pct_5,4873,0.2542523218198894
+rolling_ALL_Final third phase_pct_10,6115,0.31905457581133256
+rolling_std_ALL_Final third phase_pct_5,4023,0.2099029531461964
+ewm_ALL_Final third phase_pct_5,14401,0.7513826567880622
+trend_ALL_Final third phase_pct_3_minus_10,4264,0.22247730355838463
+rolling_ALL_Final third phase_total_3,4264,0.22247730355838463
+rolling_ALL_Final third phase_total_5,4873,0.2542523218198894
+rolling_ALL_Final third phase_total_10,6115,0.31905457581133256
+rolling_std_ALL_Final third phase_total_5,4023,0.2099029531461964
+ewm_ALL_Final third phase_total_5,14401,0.7513826567880622
+trend_ALL_Final third phase_total_3_minus_10,4264,0.22247730355838463
+rolling_ALL_Final third phase_won_3,4264,0.22247730355838463
+rolling_ALL_Final third phase_won_5,4873,0.2542523218198894
+rolling_ALL_Final third phase_won_10,6115,0.31905457581133256
+rolling_std_ALL_Final third phase_won_5,4023,0.2099029531461964
+ewm_ALL_Final third phase_won_5,14401,0.7513826567880622
+trend_ALL_Final third phase_won_3_minus_10,4264,0.22247730355838463
+rolling_ALL_Fouled in final third_3,8244,0.43013670040697066
+rolling_ALL_Fouled in final third_5,9166,0.47824272148596475
+rolling_ALL_Fouled in final third_10,10716,0.5591150996556402
+rolling_std_ALL_Fouled in final third_5,7727,0.40316184910779507
+ewm_ALL_Fouled in final third_5,15776,0.823124282583742
+trend_ALL_Fouled in final third_3_minus_10,8244,0.43013670040697066
+rolling_ALL_Fouls_3,11224,0.5856203694041532
+rolling_ALL_Fouls_5,12169,0.6349264322237296
+rolling_ALL_Fouls_10,13572,0.7081289783992487
+rolling_std_ALL_Fouls_5,10749,0.5608368986747365
+ewm_ALL_Fouls_5,16518,0.8618386726494834
+trend_ALL_Fouls_3_minus_10,11224,0.5856203694041532
+rolling_ALL_Free kicks_3,11246,0.586768235416884
+rolling_ALL_Free kicks_5,12171,0.6350307836794323
+rolling_ALL_Free kicks_10,13570,0.7080246269435458
+rolling_std_ALL_Free kicks_5,10755,0.5611499530418449
+ewm_ALL_Free kicks_5,16517,0.861786496921632
+trend_ALL_Free kicks_3_minus_10,11246,0.586768235416884
+rolling_ALL_Goal kicks_3,11238,0.5863508295940728
+rolling_ALL_Goal kicks_5,12167,0.6348220807680267
+rolling_ALL_Goal kicks_10,13569,0.7079724512156944
+rolling_std_ALL_Goal kicks_5,10747,0.5607325472190337
+ewm_ALL_Goal kicks_5,16516,0.8617343211937807
+trend_ALL_Goal kicks_3_minus_10,11238,0.5863508295940728
+rolling_ALL_Goalkeeper saves_3,11206,0.5846812063028279
+rolling_ALL_Goalkeeper saves_5,12142,0.6335176875717417
+rolling_ALL_Goalkeeper saves_10,13542,0.7065637065637066
+rolling_std_ALL_Goalkeeper saves_5,10711,0.5588542210163832
+ewm_ALL_Goalkeeper saves_5,16511,0.8614734425545236
+trend_ALL_Goalkeeper saves_3_minus_10,11206,0.5846812063028279
+rolling_ALL_Goals prevented_3,710,0.0370447667744965
+rolling_ALL_Goals prevented_5,900,0.04695815506626318
+rolling_ALL_Goals prevented_10,1340,0.06991547532088073
+rolling_std_ALL_Goals prevented_5,651,0.0339663988312637
+ewm_ALL_Goals prevented_5,2368,0.12355212355212356
+trend_ALL_Goals prevented_3_minus_10,710,0.0370447667744965
+rolling_ALL_Ground duels_pct_3,8978,0.46843368464990087
+rolling_ALL_Ground duels_pct_5,10020,0.5228007930710633
+rolling_ALL_Ground duels_pct_10,11708,0.6108734216842325
+rolling_std_ALL_Ground duels_pct_5,8509,0.44396326828759264
+ewm_ALL_Ground duels_pct_5,15993,0.8344464155274967
+trend_ALL_Ground duels_pct_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Ground duels_total_3,8978,0.46843368464990087
+rolling_ALL_Ground duels_total_5,10020,0.5228007930710633
+rolling_ALL_Ground duels_total_10,11708,0.6108734216842325
+rolling_std_ALL_Ground duels_total_5,8509,0.44396326828759264
+ewm_ALL_Ground duels_total_5,15993,0.8344464155274967
+trend_ALL_Ground duels_total_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Ground duels_won_3,8978,0.46843368464990087
+rolling_ALL_Ground duels_won_5,10020,0.5228007930710633
+rolling_ALL_Ground duels_won_10,11708,0.6108734216842325
+rolling_std_ALL_Ground duels_won_5,8509,0.44396326828759264
+ewm_ALL_Ground duels_won_5,15993,0.8344464155274967
+trend_ALL_Ground duels_won_3_minus_10,8978,0.46843368464990087
+rolling_ALL_High claims_3,3863,0.20155483668997182
+rolling_ALL_High claims_5,4573,0.23859960346446832
+rolling_ALL_High claims_10,5830,0.3041844933736826
+rolling_std_ALL_High claims_5,3361,0.17536262130856725
+ewm_ALL_High claims_5,14327,0.7475216529270583
+trend_ALL_High claims_3_minus_10,3863,0.20155483668997182
+rolling_ALL_Hit woodwork_3,9476,0.49441719711989984
+rolling_ALL_Hit woodwork_5,10485,0.547062506521966
+rolling_ALL_Hit woodwork_10,12126,0.6326828759261192
+rolling_std_ALL_Hit woodwork_5,9059,0.47265991860586454
+ewm_ALL_Hit woodwork_5,16130,0.8415944902431389
+trend_ALL_Hit woodwork_3_minus_10,9476,0.49441719711989984
+rolling_ALL_Interceptions_3,8298,0.43295418971094646
+rolling_ALL_Interceptions_5,9193,0.4796514661379526
+rolling_ALL_Interceptions_10,10740,0.5603673171240738
+rolling_std_ALL_Interceptions_5,7792,0.4065532714181363
+ewm_ALL_Interceptions_5,15779,0.8232808097672962
+trend_ALL_Interceptions_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Long balls_pct_3,8298,0.43295418971094646
+rolling_ALL_Long balls_pct_5,9193,0.4796514661379526
+rolling_ALL_Long balls_pct_10,10740,0.5603673171240738
+rolling_std_ALL_Long balls_pct_5,7792,0.4065532714181363
+ewm_ALL_Long balls_pct_5,15779,0.8232808097672962
+trend_ALL_Long balls_pct_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Long balls_total_3,8298,0.43295418971094646
+rolling_ALL_Long balls_total_5,9193,0.4796514661379526
+rolling_ALL_Long balls_total_10,10740,0.5603673171240738
+rolling_std_ALL_Long balls_total_5,7792,0.4065532714181363
+ewm_ALL_Long balls_total_5,15779,0.8232808097672962
+trend_ALL_Long balls_total_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Long balls_won_3,8298,0.43295418971094646
+rolling_ALL_Long balls_won_5,9193,0.4796514661379526
+rolling_ALL_Long balls_won_10,10740,0.5603673171240738
+rolling_std_ALL_Long balls_won_5,7792,0.4065532714181363
+ewm_ALL_Long balls_won_5,15779,0.8232808097672962
+trend_ALL_Long balls_won_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Number of sprints_3,1169,0.06099342585829072
+rolling_ALL_Number of sprints_5,1289,0.06725451320045915
+rolling_ALL_Number of sprints_10,1395,0.07278514035270792
+rolling_std_ALL_Number of sprints_5,1009,0.05264530940206616
+ewm_ALL_Number of sprints_5,1463,0.07633308984660336
+trend_ALL_Number of sprints_3_minus_10,1169,0.06099342585829072
+rolling_ALL_Offsides_3,11171,0.5828550558280288
+rolling_ALL_Offsides_5,12119,0.6323176458311593
+rolling_ALL_Offsides_10,13542,0.7065637065637066
+rolling_std_ALL_Offsides_5,10638,0.5550453928832307
+ewm_ALL_Offsides_5,16506,0.8612125639152666
+trend_ALL_Offsides_3_minus_10,11171,0.5828550558280288
+rolling_ALL_Passes_3,8978,0.46843368464990087
+rolling_ALL_Passes_5,10020,0.5228007930710633
+rolling_ALL_Passes_10,11708,0.6108734216842325
+rolling_std_ALL_Passes_5,8509,0.44396326828759264
+ewm_ALL_Passes_5,15993,0.8344464155274967
+trend_ALL_Passes_3_minus_10,8978,0.46843368464990087
+rolling_ALL_Penalty saves_3,386,0.02013983095064176
+rolling_ALL_Penalty saves_5,597,0.031148909527287907
+rolling_ALL_Penalty saves_10,1035,0.05400187832620265
+rolling_std_ALL_Penalty saves_5,63,0.003287070854638422
+ewm_ALL_Penalty saves_5,5769,0.3010017739747469
+trend_ALL_Penalty saves_3_minus_10,386,0.02013983095064176
+rolling_ALL_Punches_3,3415,0.17818011061254305
+rolling_ALL_Punches_5,4171,0.2176249608682041
+rolling_ALL_Punches_10,5444,0.28404466242304083
+rolling_std_ALL_Punches_5,2709,0.14134404674945217
+ewm_ALL_Punches_5,14218,0.7418344985912554
+trend_ALL_Punches_3_minus_10,3415,0.17818011061254305
+rolling_ALL_Recoveries_3,5780,0.3015757069811124
+rolling_ALL_Recoveries_5,6533,0.34086403005321925
+rolling_ALL_Recoveries_10,8027,0.4188145674632161
+rolling_std_ALL_Recoveries_5,5321,0.2776270478973182
+ewm_ALL_Recoveries_5,15126,0.7892100594803297
+trend_ALL_Recoveries_3_minus_10,5780,0.3015757069811124
+rolling_ALL_Red cards_3,6235,0.32531566315350097
+rolling_ALL_Red cards_5,8013,0.4180841072732965
+rolling_ALL_Red cards_10,10480,0.5468016278827089
+rolling_std_ALL_Red cards_5,4340,0.2264426588750913
+ewm_ALL_Red cards_5,14880,0.7763748304288844
+trend_ALL_Red cards_3_minus_10,6235,0.32531566315350097
+rolling_ALL_Shots inside box_3,9478,0.49452154857560265
+rolling_ALL_Shots inside box_5,10494,0.5475320880726287
+rolling_ALL_Shots inside box_10,12140,0.6334133361160388
+rolling_std_ALL_Shots inside box_5,9054,0.47239903996660754
+ewm_ALL_Shots inside box_5,16136,0.8419075446102473
+trend_ALL_Shots inside box_3_minus_10,9478,0.49452154857560265
+rolling_ALL_Shots off target_3,11239,0.5864030053219242
+rolling_ALL_Shots off target_5,12166,0.6347699050401753
+rolling_ALL_Shots off target_10,13571,0.7080768026713973
+rolling_std_ALL_Shots off target_5,10750,0.560889074402588
+ewm_ALL_Shots off target_5,16518,0.8618386726494834
+trend_ALL_Shots off target_3_minus_10,11239,0.5864030053219242
+rolling_ALL_Shots on target_3,11246,0.586768235416884
+rolling_ALL_Shots on target_5,12169,0.6349264322237296
+rolling_ALL_Shots on target_10,13571,0.7080768026713973
+rolling_std_ALL_Shots on target_5,10756,0.5612021287696963
+ewm_ALL_Shots on target_5,16518,0.8618386726494834
+trend_ALL_Shots on target_3_minus_10,11246,0.586768235416884
+rolling_ALL_Shots outside box_3,9478,0.49452154857560265
+rolling_ALL_Shots outside box_5,10494,0.5475320880726287
+rolling_ALL_Shots outside box_10,12140,0.6334133361160388
+rolling_std_ALL_Shots outside box_5,9054,0.47239903996660754
+ewm_ALL_Shots outside box_5,16136,0.8419075446102473
+trend_ALL_Shots outside box_3_minus_10,9478,0.49452154857560265
+rolling_ALL_Tackles_3,8298,0.43295418971094646
+rolling_ALL_Tackles_5,9193,0.4796514661379526
+rolling_ALL_Tackles_10,10740,0.5603673171240738
+rolling_std_ALL_Tackles_5,7792,0.4065532714181363
+ewm_ALL_Tackles_5,15779,0.8232808097672962
+trend_ALL_Tackles_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Tackles won_pct_3,8261,0.43102368778044453
+rolling_ALL_Tackles won_pct_5,9175,0.4787123030366274
+rolling_ALL_Tackles won_pct_10,10729,0.5597933841177084
+rolling_std_ALL_Tackles won_pct_5,7755,0.40462276948763437
+ewm_ALL_Tackles won_pct_5,15776,0.823124282583742
+trend_ALL_Tackles won_pct_3_minus_10,8261,0.43102368778044453
+rolling_ALL_Tackles won_total_3,8261,0.43102368778044453
+rolling_ALL_Tackles won_total_5,9175,0.4787123030366274
+rolling_ALL_Tackles won_total_10,10729,0.5597933841177084
+rolling_std_ALL_Tackles won_total_5,7755,0.40462276948763437
+ewm_ALL_Tackles won_total_5,15776,0.823124282583742
+trend_ALL_Tackles won_total_3_minus_10,8261,0.43102368778044453
+rolling_ALL_Tackles won_won_3,8261,0.43102368778044453
+rolling_ALL_Tackles won_won_5,9175,0.4787123030366274
+rolling_ALL_Tackles won_won_10,10729,0.5597933841177084
+rolling_std_ALL_Tackles won_won_5,7755,0.40462276948763437
+ewm_ALL_Tackles won_won_5,15776,0.823124282583742
+trend_ALL_Tackles won_won_3_minus_10,8261,0.43102368778044453
+rolling_ALL_Through balls_3,7352,0.38359595116351874
+rolling_ALL_Through balls_5,8761,0.4571115517061463
+rolling_ALL_Through balls_10,10786,0.5627674006052384
+rolling_std_ALL_Through balls_5,6101,0.31832411562141294
+ewm_ALL_Through balls_5,15660,0.8170718981529792
+trend_ALL_Through balls_3_minus_10,7352,0.38359595116351874
+rolling_ALL_Throw-ins_3,11238,0.5863508295940728
+rolling_ALL_Throw-ins_5,12167,0.6348220807680267
+rolling_ALL_Throw-ins_10,13569,0.7079724512156944
+rolling_std_ALL_Throw-ins_5,10747,0.5607325472190337
+ewm_ALL_Throw-ins_5,16516,0.8617343211937807
+trend_ALL_Throw-ins_3_minus_10,11238,0.5863508295940728
+rolling_ALL_Total saves_3,11206,0.5846812063028279
+rolling_ALL_Total saves_5,12142,0.6335176875717417
+rolling_ALL_Total saves_10,13542,0.7065637065637066
+rolling_std_ALL_Total saves_5,10711,0.5588542210163832
+ewm_ALL_Total saves_5,16511,0.8614734425545236
+trend_ALL_Total saves_3_minus_10,11206,0.5846812063028279
+rolling_ALL_Total shots_3,10600,0.5530627152248774
+rolling_ALL_Total shots_5,11488,0.5993947615569237
+rolling_ALL_Total shots_10,12885,0.6722842533653345
+rolling_std_ALL_Total shots_5,10128,0.5284357716790149
+ewm_ALL_Total shots_5,16315,0.8512469998956486
+trend_ALL_Total shots_3_minus_10,10600,0.5530627152248774
+rolling_ALL_Total tackles_3,8298,0.43295418971094646
+rolling_ALL_Total tackles_5,9193,0.4796514661379526
+rolling_ALL_Total tackles_10,10740,0.5603673171240738
+rolling_std_ALL_Total tackles_5,7792,0.4065532714181363
+ewm_ALL_Total tackles_5,15779,0.8232808097672962
+trend_ALL_Total tackles_3_minus_10,8298,0.43295418971094646
+rolling_ALL_Touches in penalty area_3,4215,0.21992069289366586
+rolling_ALL_Touches in penalty area_5,4803,0.25060002087029115
+rolling_ALL_Touches in penalty area_10,6006,0.3133674214755296
+rolling_std_ALL_Touches in penalty area_5,3991,0.20823332985495147
+ewm_ALL_Touches in penalty area_5,14378,0.75018261504748
+trend_ALL_Touches in penalty area_3_minus_10,4215,0.21992069289366586
+rolling_ALL_Yellow cards_3,11226,0.5857247208598559
+rolling_ALL_Yellow cards_5,12112,0.6319524157361995
+rolling_ALL_Yellow cards_10,13473,0.7029635813419597
+rolling_std_ALL_Yellow cards_5,10724,0.5595325054784515
+ewm_ALL_Yellow cards_5,16456,0.8586037775226965
+trend_ALL_Yellow cards_3_minus_10,11226,0.5857247208598559
+rolling_against_ALL_Accurate passes_3,8978,0.46843368464990087
+rolling_against_ALL_Accurate passes_5,10020,0.5228007930710633
+rolling_against_ALL_Accurate passes_10,11708,0.6108734216842325
+rolling_std_against_ALL_Accurate passes_5,8509,0.44396326828759264
+ewm_against_ALL_Accurate passes_5,15993,0.8344464155274967
+trend_against_ALL_Accurate passes_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_pct_3,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_pct_5,10020,0.5228007930710633
+rolling_against_ALL_Aerial duels_pct_10,11708,0.6108734216842325
+rolling_std_against_ALL_Aerial duels_pct_5,8509,0.44396326828759264
+ewm_against_ALL_Aerial duels_pct_5,15993,0.8344464155274967
+trend_against_ALL_Aerial duels_pct_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_total_3,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_total_5,10020,0.5228007930710633
+rolling_against_ALL_Aerial duels_total_10,11708,0.6108734216842325
+rolling_std_against_ALL_Aerial duels_total_5,8509,0.44396326828759264
+ewm_against_ALL_Aerial duels_total_5,15993,0.8344464155274967
+trend_against_ALL_Aerial duels_total_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_won_3,8978,0.46843368464990087
+rolling_against_ALL_Aerial duels_won_5,10020,0.5228007930710633
+rolling_against_ALL_Aerial duels_won_10,11708,0.6108734216842325
+rolling_std_against_ALL_Aerial duels_won_5,8509,0.44396326828759264
+ewm_against_ALL_Aerial duels_won_5,15993,0.8344464155274967
+trend_against_ALL_Aerial duels_won_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Ball possession_3,11208,0.5847855577585307
+rolling_against_ALL_Ball possession_5,12154,0.6341437963059585
+rolling_against_ALL_Ball possession_10,13568,0.7079202754878431
+rolling_std_against_ALL_Ball possession_5,10704,0.5584889909214233
+ewm_against_ALL_Ball possession_5,16516,0.8617343211937807
+trend_against_ALL_Ball possession_3_minus_10,11208,0.5847855577585307
+rolling_against_ALL_Big chances_3,8067,0.4209015965772723
+rolling_against_ALL_Big chances_5,8939,0.46639883126369613
+rolling_against_ALL_Big chances_10,10410,0.5431493269331107
+rolling_std_against_ALL_Big chances_5,7551,0.39397892100594806
+ewm_against_ALL_Big chances_5,15714,0.819889387456955
+trend_against_ALL_Big chances_3_minus_10,8067,0.4209015965772723
+rolling_against_ALL_Big chances missed_3,7857,0.4099446937284775
+rolling_against_ALL_Big chances missed_5,8764,0.4572680788897005
+rolling_against_ALL_Big chances missed_10,10236,0.5340707502869665
+rolling_std_against_ALL_Big chances missed_5,7247,0.37811749973912134
+ewm_against_ALL_Big chances missed_5,15652,0.816654492330168
+trend_against_ALL_Big chances missed_3_minus_10,7857,0.4099446937284775
+rolling_against_ALL_Big chances scored_3,7642,0.3987269122404258
+rolling_against_ALL_Big chances scored_5,8626,0.4500678284462068
+rolling_against_ALL_Big chances scored_10,10167,0.5304706250652197
+rolling_std_against_ALL_Big chances scored_5,6856,0.3577167901492226
+ewm_against_ALL_Big chances scored_5,15650,0.8165501408744652
+trend_against_ALL_Big chances scored_3_minus_10,7642,0.3987269122404258
+rolling_against_ALL_Big saves_3,3626,0.1891891891891892
+rolling_against_ALL_Big saves_5,4326,0.22571219868517164
+rolling_against_ALL_Big saves_10,5589,0.2916101429614943
+rolling_std_against_ALL_Big saves_5,3059,0.15960555149744338
+ewm_against_ALL_Big saves_5,14107,0.7360429927997496
+trend_against_ALL_Big saves_3_minus_10,3626,0.1891891891891892
+rolling_against_ALL_Blocked shots_3,9514,0.49639987477825315
+rolling_against_ALL_Blocked shots_5,10514,0.5485756026296567
+rolling_against_ALL_Blocked shots_10,12146,0.6337263904831473
+rolling_std_against_ALL_Blocked shots_5,9095,0.4745382448085151
+ewm_against_ALL_Blocked shots_5,16136,0.8419075446102473
+trend_against_ALL_Blocked shots_3_minus_10,9514,0.49639987477825315
+rolling_against_ALL_Clearances_3,8298,0.43295418971094646
+rolling_against_ALL_Clearances_5,9193,0.4796514661379526
+rolling_against_ALL_Clearances_10,10740,0.5603673171240738
+rolling_std_against_ALL_Clearances_5,7792,0.4065532714181363
+ewm_against_ALL_Clearances_5,15779,0.8232808097672962
+trend_against_ALL_Clearances_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Corner kicks_3,11318,0.5905248878221852
+rolling_against_ALL_Corner kicks_5,12212,0.6371699885213399
+rolling_against_ALL_Corner kicks_10,13587,0.7089116143170198
+rolling_std_against_ALL_Corner kicks_5,10867,0.5669936345612021
+ewm_against_ALL_Corner kicks_5,16530,0.8624647813837003
+trend_against_ALL_Corner kicks_3_minus_10,11318,0.5905248878221852
+rolling_against_ALL_Crosses_pct_3,8298,0.43295418971094646
+rolling_against_ALL_Crosses_pct_5,9193,0.4796514661379526
+rolling_against_ALL_Crosses_pct_10,10740,0.5603673171240738
+rolling_std_against_ALL_Crosses_pct_5,7792,0.4065532714181363
+ewm_against_ALL_Crosses_pct_5,15779,0.8232808097672962
+trend_against_ALL_Crosses_pct_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Crosses_total_3,8298,0.43295418971094646
+rolling_against_ALL_Crosses_total_5,9193,0.4796514661379526
+rolling_against_ALL_Crosses_total_10,10740,0.5603673171240738
+rolling_std_against_ALL_Crosses_total_5,7792,0.4065532714181363
+ewm_against_ALL_Crosses_total_5,15779,0.8232808097672962
+trend_against_ALL_Crosses_total_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Crosses_won_3,8298,0.43295418971094646
+rolling_against_ALL_Crosses_won_5,9193,0.4796514661379526
+rolling_against_ALL_Crosses_won_10,10740,0.5603673171240738
+rolling_std_against_ALL_Crosses_won_5,7792,0.4065532714181363
+ewm_against_ALL_Crosses_won_5,15779,0.8232808097672962
+trend_against_ALL_Crosses_won_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Dispossessed_3,8298,0.43295418971094646
+rolling_against_ALL_Dispossessed_5,9193,0.4796514661379526
+rolling_against_ALL_Dispossessed_10,10740,0.5603673171240738
+rolling_std_against_ALL_Dispossessed_5,7792,0.4065532714181363
+ewm_against_ALL_Dispossessed_5,15779,0.8232808097672962
+trend_against_ALL_Dispossessed_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Distance covered_3,0,0.0
+rolling_against_ALL_Distance covered_5,0,0.0
+rolling_against_ALL_Distance covered_10,0,0.0
+rolling_std_against_ALL_Distance covered_5,0,0.0
+ewm_against_ALL_Distance covered_5,0,0.0
+trend_against_ALL_Distance covered_3_minus_10,0,0.0
+rolling_against_ALL_Dribbles_pct_3,8298,0.43295418971094646
+rolling_against_ALL_Dribbles_pct_5,9193,0.4796514661379526
+rolling_against_ALL_Dribbles_pct_10,10740,0.5603673171240738
+rolling_std_against_ALL_Dribbles_pct_5,7792,0.4065532714181363
+ewm_against_ALL_Dribbles_pct_5,15779,0.8232808097672962
+trend_against_ALL_Dribbles_pct_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Dribbles_total_3,8298,0.43295418971094646
+rolling_against_ALL_Dribbles_total_5,9193,0.4796514661379526
+rolling_against_ALL_Dribbles_total_10,10740,0.5603673171240738
+rolling_std_against_ALL_Dribbles_total_5,7792,0.4065532714181363
+ewm_against_ALL_Dribbles_total_5,15779,0.8232808097672962
+trend_against_ALL_Dribbles_total_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Dribbles_won_3,8298,0.43295418971094646
+rolling_against_ALL_Dribbles_won_5,9193,0.4796514661379526
+rolling_against_ALL_Dribbles_won_10,10740,0.5603673171240738
+rolling_std_against_ALL_Dribbles_won_5,7792,0.4065532714181363
+ewm_against_ALL_Dribbles_won_5,15779,0.8232808097672962
+trend_against_ALL_Dribbles_won_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Duels_3,8977,0.46838150892204944
+rolling_against_ALL_Duels_5,10020,0.5228007930710633
+rolling_against_ALL_Duels_10,11708,0.6108734216842325
+rolling_std_against_ALL_Duels_5,8508,0.4439110925597412
+ewm_against_ALL_Duels_5,15993,0.8344464155274967
+trend_against_ALL_Duels_3_minus_10,8977,0.46838150892204944
+rolling_against_ALL_Errors lead to a goal_3,2047,0.10680371491182301
+rolling_against_ALL_Errors lead to a goal_5,2759,0.14395283314202234
+rolling_against_ALL_Errors lead to a goal_10,3904,0.20369404153187937
+rolling_std_against_ALL_Errors lead to a goal_5,1001,0.05222790357925493
+ewm_against_ALL_Errors lead to a goal_5,12551,0.6548575602629657
+trend_against_ALL_Errors lead to a goal_3_minus_10,2047,0.10680371491182301
+rolling_against_ALL_Errors lead to a shot_3,2926,0.15266617969320673
+rolling_against_ALL_Errors lead to a shot_5,3629,0.1893457163727434
+rolling_against_ALL_Errors lead to a shot_10,4829,0.25195658979442764
+rolling_std_against_ALL_Errors lead to a shot_5,2099,0.109516852760096
+ewm_against_ALL_Errors lead to a shot_5,13727,0.7162162162162162
+trend_against_ALL_Errors lead to a shot_3_minus_10,2926,0.15266617969320673
+rolling_against_ALL_Expected goals_3,1989,0.10377752269644161
+rolling_against_ALL_Expected goals_5,2263,0.11807367212772618
+rolling_against_ALL_Expected goals_10,2746,0.1432745486799541
+rolling_std_against_ALL_Expected goals_5,1784,0.09308149848690389
+ewm_against_ALL_Expected goals_5,3222,0.16811019513722217
+trend_against_ALL_Expected goals_3_minus_10,1989,0.10377752269644161
+rolling_against_ALL_Final third entries_3,8262,0.43107586350829596
+rolling_against_ALL_Final third entries_5,9175,0.4787123030366274
+rolling_against_ALL_Final third entries_10,10729,0.5597933841177084
+rolling_std_against_ALL_Final third entries_5,7756,0.40467494521548575
+ewm_against_ALL_Final third entries_5,15776,0.823124282583742
+trend_against_ALL_Final third entries_3_minus_10,8262,0.43107586350829596
+rolling_against_ALL_Final third phase_pct_3,4264,0.22247730355838463
+rolling_against_ALL_Final third phase_pct_5,4873,0.2542523218198894
+rolling_against_ALL_Final third phase_pct_10,6115,0.31905457581133256
+rolling_std_against_ALL_Final third phase_pct_5,4023,0.2099029531461964
+ewm_against_ALL_Final third phase_pct_5,14401,0.7513826567880622
+trend_against_ALL_Final third phase_pct_3_minus_10,4264,0.22247730355838463
+rolling_against_ALL_Final third phase_total_3,4264,0.22247730355838463
+rolling_against_ALL_Final third phase_total_5,4873,0.2542523218198894
+rolling_against_ALL_Final third phase_total_10,6115,0.31905457581133256
+rolling_std_against_ALL_Final third phase_total_5,4023,0.2099029531461964
+ewm_against_ALL_Final third phase_total_5,14401,0.7513826567880622
+trend_against_ALL_Final third phase_total_3_minus_10,4264,0.22247730355838463
+rolling_against_ALL_Final third phase_won_3,4264,0.22247730355838463
+rolling_against_ALL_Final third phase_won_5,4873,0.2542523218198894
+rolling_against_ALL_Final third phase_won_10,6115,0.31905457581133256
+rolling_std_against_ALL_Final third phase_won_5,4023,0.2099029531461964
+ewm_against_ALL_Final third phase_won_5,14401,0.7513826567880622
+trend_against_ALL_Final third phase_won_3_minus_10,4264,0.22247730355838463
+rolling_against_ALL_Fouled in final third_3,8244,0.43013670040697066
+rolling_against_ALL_Fouled in final third_5,9166,0.47824272148596475
+rolling_against_ALL_Fouled in final third_10,10716,0.5591150996556402
+rolling_std_against_ALL_Fouled in final third_5,7727,0.40316184910779507
+ewm_against_ALL_Fouled in final third_5,15776,0.823124282583742
+trend_against_ALL_Fouled in final third_3_minus_10,8244,0.43013670040697066
+rolling_against_ALL_Fouls_3,11224,0.5856203694041532
+rolling_against_ALL_Fouls_5,12169,0.6349264322237296
+rolling_against_ALL_Fouls_10,13572,0.7081289783992487
+rolling_std_against_ALL_Fouls_5,10749,0.5608368986747365
+ewm_against_ALL_Fouls_5,16518,0.8618386726494834
+trend_against_ALL_Fouls_3_minus_10,11224,0.5856203694041532
+rolling_against_ALL_Free kicks_3,11246,0.586768235416884
+rolling_against_ALL_Free kicks_5,12171,0.6350307836794323
+rolling_against_ALL_Free kicks_10,13570,0.7080246269435458
+rolling_std_against_ALL_Free kicks_5,10755,0.5611499530418449
+ewm_against_ALL_Free kicks_5,16517,0.861786496921632
+trend_against_ALL_Free kicks_3_minus_10,11246,0.586768235416884
+rolling_against_ALL_Goal kicks_3,11238,0.5863508295940728
+rolling_against_ALL_Goal kicks_5,12167,0.6348220807680267
+rolling_against_ALL_Goal kicks_10,13569,0.7079724512156944
+rolling_std_against_ALL_Goal kicks_5,10747,0.5607325472190337
+ewm_against_ALL_Goal kicks_5,16516,0.8617343211937807
+trend_against_ALL_Goal kicks_3_minus_10,11238,0.5863508295940728
+rolling_against_ALL_Goalkeeper saves_3,11206,0.5846812063028279
+rolling_against_ALL_Goalkeeper saves_5,12142,0.6335176875717417
+rolling_against_ALL_Goalkeeper saves_10,13542,0.7065637065637066
+rolling_std_against_ALL_Goalkeeper saves_5,10711,0.5588542210163832
+ewm_against_ALL_Goalkeeper saves_5,16511,0.8614734425545236
+trend_against_ALL_Goalkeeper saves_3_minus_10,11206,0.5846812063028279
+rolling_against_ALL_Goals prevented_3,710,0.0370447667744965
+rolling_against_ALL_Goals prevented_5,900,0.04695815506626318
+rolling_against_ALL_Goals prevented_10,1340,0.06991547532088073
+rolling_std_against_ALL_Goals prevented_5,651,0.0339663988312637
+ewm_against_ALL_Goals prevented_5,2368,0.12355212355212356
+trend_against_ALL_Goals prevented_3_minus_10,710,0.0370447667744965
+rolling_against_ALL_Ground duels_pct_3,8978,0.46843368464990087
+rolling_against_ALL_Ground duels_pct_5,10020,0.5228007930710633
+rolling_against_ALL_Ground duels_pct_10,11708,0.6108734216842325
+rolling_std_against_ALL_Ground duels_pct_5,8509,0.44396326828759264
+ewm_against_ALL_Ground duels_pct_5,15993,0.8344464155274967
+trend_against_ALL_Ground duels_pct_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Ground duels_total_3,8978,0.46843368464990087
+rolling_against_ALL_Ground duels_total_5,10020,0.5228007930710633
+rolling_against_ALL_Ground duels_total_10,11708,0.6108734216842325
+rolling_std_against_ALL_Ground duels_total_5,8509,0.44396326828759264
+ewm_against_ALL_Ground duels_total_5,15993,0.8344464155274967
+trend_against_ALL_Ground duels_total_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Ground duels_won_3,8978,0.46843368464990087
+rolling_against_ALL_Ground duels_won_5,10020,0.5228007930710633
+rolling_against_ALL_Ground duels_won_10,11708,0.6108734216842325
+rolling_std_against_ALL_Ground duels_won_5,8509,0.44396326828759264
+ewm_against_ALL_Ground duels_won_5,15993,0.8344464155274967
+trend_against_ALL_Ground duels_won_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_High claims_3,3863,0.20155483668997182
+rolling_against_ALL_High claims_5,4573,0.23859960346446832
+rolling_against_ALL_High claims_10,5830,0.3041844933736826
+rolling_std_against_ALL_High claims_5,3361,0.17536262130856725
+ewm_against_ALL_High claims_5,14327,0.7475216529270583
+trend_against_ALL_High claims_3_minus_10,3863,0.20155483668997182
+rolling_against_ALL_Hit woodwork_3,9476,0.49441719711989984
+rolling_against_ALL_Hit woodwork_5,10485,0.547062506521966
+rolling_against_ALL_Hit woodwork_10,12126,0.6326828759261192
+rolling_std_against_ALL_Hit woodwork_5,9059,0.47265991860586454
+ewm_against_ALL_Hit woodwork_5,16130,0.8415944902431389
+trend_against_ALL_Hit woodwork_3_minus_10,9476,0.49441719711989984
+rolling_against_ALL_Interceptions_3,8298,0.43295418971094646
+rolling_against_ALL_Interceptions_5,9193,0.4796514661379526
+rolling_against_ALL_Interceptions_10,10740,0.5603673171240738
+rolling_std_against_ALL_Interceptions_5,7792,0.4065532714181363
+ewm_against_ALL_Interceptions_5,15779,0.8232808097672962
+trend_against_ALL_Interceptions_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Long balls_pct_3,8298,0.43295418971094646
+rolling_against_ALL_Long balls_pct_5,9193,0.4796514661379526
+rolling_against_ALL_Long balls_pct_10,10740,0.5603673171240738
+rolling_std_against_ALL_Long balls_pct_5,7792,0.4065532714181363
+ewm_against_ALL_Long balls_pct_5,15779,0.8232808097672962
+trend_against_ALL_Long balls_pct_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Long balls_total_3,8298,0.43295418971094646
+rolling_against_ALL_Long balls_total_5,9193,0.4796514661379526
+rolling_against_ALL_Long balls_total_10,10740,0.5603673171240738
+rolling_std_against_ALL_Long balls_total_5,7792,0.4065532714181363
+ewm_against_ALL_Long balls_total_5,15779,0.8232808097672962
+trend_against_ALL_Long balls_total_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Long balls_won_3,8298,0.43295418971094646
+rolling_against_ALL_Long balls_won_5,9193,0.4796514661379526
+rolling_against_ALL_Long balls_won_10,10740,0.5603673171240738
+rolling_std_against_ALL_Long balls_won_5,7792,0.4065532714181363
+ewm_against_ALL_Long balls_won_5,15779,0.8232808097672962
+trend_against_ALL_Long balls_won_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Number of sprints_3,1169,0.06099342585829072
+rolling_against_ALL_Number of sprints_5,1289,0.06725451320045915
+rolling_against_ALL_Number of sprints_10,1395,0.07278514035270792
+rolling_std_against_ALL_Number of sprints_5,1009,0.05264530940206616
+ewm_against_ALL_Number of sprints_5,1463,0.07633308984660336
+trend_against_ALL_Number of sprints_3_minus_10,1169,0.06099342585829072
+rolling_against_ALL_Offsides_3,11171,0.5828550558280288
+rolling_against_ALL_Offsides_5,12119,0.6323176458311593
+rolling_against_ALL_Offsides_10,13542,0.7065637065637066
+rolling_std_against_ALL_Offsides_5,10638,0.5550453928832307
+ewm_against_ALL_Offsides_5,16506,0.8612125639152666
+trend_against_ALL_Offsides_3_minus_10,11171,0.5828550558280288
+rolling_against_ALL_Passes_3,8978,0.46843368464990087
+rolling_against_ALL_Passes_5,10020,0.5228007930710633
+rolling_against_ALL_Passes_10,11708,0.6108734216842325
+rolling_std_against_ALL_Passes_5,8509,0.44396326828759264
+ewm_against_ALL_Passes_5,15993,0.8344464155274967
+trend_against_ALL_Passes_3_minus_10,8978,0.46843368464990087
+rolling_against_ALL_Penalty saves_3,386,0.02013983095064176
+rolling_against_ALL_Penalty saves_5,597,0.031148909527287907
+rolling_against_ALL_Penalty saves_10,1035,0.05400187832620265
+rolling_std_against_ALL_Penalty saves_5,63,0.003287070854638422
+ewm_against_ALL_Penalty saves_5,5769,0.3010017739747469
+trend_against_ALL_Penalty saves_3_minus_10,386,0.02013983095064176
+rolling_against_ALL_Punches_3,3415,0.17818011061254305
+rolling_against_ALL_Punches_5,4171,0.2176249608682041
+rolling_against_ALL_Punches_10,5444,0.28404466242304083
+rolling_std_against_ALL_Punches_5,2709,0.14134404674945217
+ewm_against_ALL_Punches_5,14218,0.7418344985912554
+trend_against_ALL_Punches_3_minus_10,3415,0.17818011061254305
+rolling_against_ALL_Recoveries_3,5780,0.3015757069811124
+rolling_against_ALL_Recoveries_5,6533,0.34086403005321925
+rolling_against_ALL_Recoveries_10,8027,0.4188145674632161
+rolling_std_against_ALL_Recoveries_5,5321,0.2776270478973182
+ewm_against_ALL_Recoveries_5,15126,0.7892100594803297
+trend_against_ALL_Recoveries_3_minus_10,5780,0.3015757069811124
+rolling_against_ALL_Red cards_3,6235,0.32531566315350097
+rolling_against_ALL_Red cards_5,8013,0.4180841072732965
+rolling_against_ALL_Red cards_10,10480,0.5468016278827089
+rolling_std_against_ALL_Red cards_5,4340,0.2264426588750913
+ewm_against_ALL_Red cards_5,14880,0.7763748304288844
+trend_against_ALL_Red cards_3_minus_10,6235,0.32531566315350097
+rolling_against_ALL_Shots inside box_3,9478,0.49452154857560265
+rolling_against_ALL_Shots inside box_5,10494,0.5475320880726287
+rolling_against_ALL_Shots inside box_10,12140,0.6334133361160388
+rolling_std_against_ALL_Shots inside box_5,9054,0.47239903996660754
+ewm_against_ALL_Shots inside box_5,16136,0.8419075446102473
+trend_against_ALL_Shots inside box_3_minus_10,9478,0.49452154857560265
+rolling_against_ALL_Shots off target_3,11239,0.5864030053219242
+rolling_against_ALL_Shots off target_5,12166,0.6347699050401753
+rolling_against_ALL_Shots off target_10,13571,0.7080768026713973
+rolling_std_against_ALL_Shots off target_5,10750,0.560889074402588
+ewm_against_ALL_Shots off target_5,16518,0.8618386726494834
+trend_against_ALL_Shots off target_3_minus_10,11239,0.5864030053219242
+rolling_against_ALL_Shots on target_3,11246,0.586768235416884
+rolling_against_ALL_Shots on target_5,12169,0.6349264322237296
+rolling_against_ALL_Shots on target_10,13571,0.7080768026713973
+rolling_std_against_ALL_Shots on target_5,10756,0.5612021287696963
+ewm_against_ALL_Shots on target_5,16518,0.8618386726494834
+trend_against_ALL_Shots on target_3_minus_10,11246,0.586768235416884
+rolling_against_ALL_Shots outside box_3,9478,0.49452154857560265
+rolling_against_ALL_Shots outside box_5,10494,0.5475320880726287
+rolling_against_ALL_Shots outside box_10,12140,0.6334133361160388
+rolling_std_against_ALL_Shots outside box_5,9054,0.47239903996660754
+ewm_against_ALL_Shots outside box_5,16136,0.8419075446102473
+trend_against_ALL_Shots outside box_3_minus_10,9478,0.49452154857560265
+rolling_against_ALL_Tackles_3,8298,0.43295418971094646
+rolling_against_ALL_Tackles_5,9193,0.4796514661379526
+rolling_against_ALL_Tackles_10,10740,0.5603673171240738
+rolling_std_against_ALL_Tackles_5,7792,0.4065532714181363
+ewm_against_ALL_Tackles_5,15779,0.8232808097672962
+trend_against_ALL_Tackles_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Tackles won_pct_3,8261,0.43102368778044453
+rolling_against_ALL_Tackles won_pct_5,9175,0.4787123030366274
+rolling_against_ALL_Tackles won_pct_10,10729,0.5597933841177084
+rolling_std_against_ALL_Tackles won_pct_5,7755,0.40462276948763437
+ewm_against_ALL_Tackles won_pct_5,15776,0.823124282583742
+trend_against_ALL_Tackles won_pct_3_minus_10,8261,0.43102368778044453
+rolling_against_ALL_Tackles won_total_3,8261,0.43102368778044453
+rolling_against_ALL_Tackles won_total_5,9175,0.4787123030366274
+rolling_against_ALL_Tackles won_total_10,10729,0.5597933841177084
+rolling_std_against_ALL_Tackles won_total_5,7755,0.40462276948763437
+ewm_against_ALL_Tackles won_total_5,15776,0.823124282583742
+trend_against_ALL_Tackles won_total_3_minus_10,8261,0.43102368778044453
+rolling_against_ALL_Tackles won_won_3,8261,0.43102368778044453
+rolling_against_ALL_Tackles won_won_5,9175,0.4787123030366274
+rolling_against_ALL_Tackles won_won_10,10729,0.5597933841177084
+rolling_std_against_ALL_Tackles won_won_5,7755,0.40462276948763437
+ewm_against_ALL_Tackles won_won_5,15776,0.823124282583742
+trend_against_ALL_Tackles won_won_3_minus_10,8261,0.43102368778044453
+rolling_against_ALL_Through balls_3,7352,0.38359595116351874
+rolling_against_ALL_Through balls_5,8761,0.4571115517061463
+rolling_against_ALL_Through balls_10,10786,0.5627674006052384
+rolling_std_against_ALL_Through balls_5,6101,0.31832411562141294
+ewm_against_ALL_Through balls_5,15660,0.8170718981529792
+trend_against_ALL_Through balls_3_minus_10,7352,0.38359595116351874
+rolling_against_ALL_Throw-ins_3,11238,0.5863508295940728
+rolling_against_ALL_Throw-ins_5,12167,0.6348220807680267
+rolling_against_ALL_Throw-ins_10,13569,0.7079724512156944
+rolling_std_against_ALL_Throw-ins_5,10747,0.5607325472190337
+ewm_against_ALL_Throw-ins_5,16516,0.8617343211937807
+trend_against_ALL_Throw-ins_3_minus_10,11238,0.5863508295940728
+rolling_against_ALL_Total saves_3,11206,0.5846812063028279
+rolling_against_ALL_Total saves_5,12142,0.6335176875717417
+rolling_against_ALL_Total saves_10,13542,0.7065637065637066
+rolling_std_against_ALL_Total saves_5,10711,0.5588542210163832
+ewm_against_ALL_Total saves_5,16511,0.8614734425545236
+trend_against_ALL_Total saves_3_minus_10,11206,0.5846812063028279
+rolling_against_ALL_Total shots_3,10600,0.5530627152248774
+rolling_against_ALL_Total shots_5,11488,0.5993947615569237
+rolling_against_ALL_Total shots_10,12885,0.6722842533653345
+rolling_std_against_ALL_Total shots_5,10128,0.5284357716790149
+ewm_against_ALL_Total shots_5,16315,0.8512469998956486
+trend_against_ALL_Total shots_3_minus_10,10600,0.5530627152248774
+rolling_against_ALL_Total tackles_3,8298,0.43295418971094646
+rolling_against_ALL_Total tackles_5,9193,0.4796514661379526
+rolling_against_ALL_Total tackles_10,10740,0.5603673171240738
+rolling_std_against_ALL_Total tackles_5,7792,0.4065532714181363
+ewm_against_ALL_Total tackles_5,15779,0.8232808097672962
+trend_against_ALL_Total tackles_3_minus_10,8298,0.43295418971094646
+rolling_against_ALL_Touches in penalty area_3,4215,0.21992069289366586
+rolling_against_ALL_Touches in penalty area_5,4803,0.25060002087029115
+rolling_against_ALL_Touches in penalty area_10,6006,0.3133674214755296
+rolling_std_against_ALL_Touches in penalty area_5,3991,0.20823332985495147
+ewm_against_ALL_Touches in penalty area_5,14378,0.75018261504748
+trend_against_ALL_Touches in penalty area_3_minus_10,4215,0.21992069289366586
+rolling_against_ALL_Yellow cards_3,11226,0.5857247208598559
+rolling_against_ALL_Yellow cards_5,12112,0.6319524157361995
+rolling_against_ALL_Yellow cards_10,13473,0.7029635813419597
+rolling_std_against_ALL_Yellow cards_5,10724,0.5595325054784515
+ewm_against_ALL_Yellow cards_5,16456,0.8586037775226965
+trend_against_ALL_Yellow cards_3_minus_10,11226,0.5857247208598559
+prior_match_count,19166,1.0
+prior_advanced_stats_count_10,18922,0.9872691224042576
+opponent_rolling_goals_for_3,18922,0.9872691224042576
+opponent_rolling_goals_for_5,18922,0.9872691224042576
+opponent_rolling_goals_for_10,18922,0.9872691224042576
+opponent_rolling_std_goals_for_5,18705,0.975946989460503
+opponent_rolling_goals_against_3,18922,0.9872691224042576
+opponent_rolling_goals_against_5,18922,0.9872691224042576
+opponent_rolling_goals_against_10,18922,0.9872691224042576
+opponent_rolling_std_goals_against_5,18705,0.975946989460503
+opponent_rolling_goal_difference_3,18922,0.9872691224042576
+opponent_rolling_goal_difference_5,18922,0.9872691224042576
+opponent_rolling_goal_difference_10,18922,0.9872691224042576
+opponent_rolling_std_goal_difference_5,18705,0.975946989460503
+opponent_rolling_ALL_Accurate passes_3,8978,0.46843368464990087
+opponent_rolling_ALL_Accurate passes_5,10020,0.5228007930710633
+opponent_rolling_ALL_Accurate passes_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Accurate passes_5,8509,0.44396326828759264
+opponent_rolling_ALL_Aerial duels_pct_3,8978,0.46843368464990087
+opponent_rolling_ALL_Aerial duels_pct_5,10020,0.5228007930710633
+opponent_rolling_ALL_Aerial duels_pct_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Aerial duels_pct_5,8509,0.44396326828759264
+opponent_rolling_ALL_Aerial duels_total_3,8978,0.46843368464990087
+opponent_rolling_ALL_Aerial duels_total_5,10020,0.5228007930710633
+opponent_rolling_ALL_Aerial duels_total_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Aerial duels_total_5,8509,0.44396326828759264
+opponent_rolling_ALL_Aerial duels_won_3,8978,0.46843368464990087
+opponent_rolling_ALL_Aerial duels_won_5,10020,0.5228007930710633
+opponent_rolling_ALL_Aerial duels_won_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Aerial duels_won_5,8509,0.44396326828759264
+opponent_rolling_ALL_Ball possession_3,11208,0.5847855577585307
+opponent_rolling_ALL_Ball possession_5,12154,0.6341437963059585
+opponent_rolling_ALL_Ball possession_10,13568,0.7079202754878431
+opponent_rolling_std_ALL_Ball possession_5,10704,0.5584889909214233
+opponent_rolling_ALL_Big chances_3,8067,0.4209015965772723
+opponent_rolling_ALL_Big chances_5,8939,0.46639883126369613
+opponent_rolling_ALL_Big chances_10,10410,0.5431493269331107
+opponent_rolling_std_ALL_Big chances_5,7551,0.39397892100594806
+opponent_rolling_ALL_Big chances missed_3,7857,0.4099446937284775
+opponent_rolling_ALL_Big chances missed_5,8764,0.4572680788897005
+opponent_rolling_ALL_Big chances missed_10,10236,0.5340707502869665
+opponent_rolling_std_ALL_Big chances missed_5,7247,0.37811749973912134
+opponent_rolling_ALL_Big chances scored_3,7642,0.3987269122404258
+opponent_rolling_ALL_Big chances scored_5,8626,0.4500678284462068
+opponent_rolling_ALL_Big chances scored_10,10167,0.5304706250652197
+opponent_rolling_std_ALL_Big chances scored_5,6856,0.3577167901492226
+opponent_rolling_ALL_Big saves_3,3626,0.1891891891891892
+opponent_rolling_ALL_Big saves_5,4326,0.22571219868517164
+opponent_rolling_ALL_Big saves_10,5589,0.2916101429614943
+opponent_rolling_std_ALL_Big saves_5,3059,0.15960555149744338
+opponent_rolling_ALL_Blocked shots_3,9514,0.49639987477825315
+opponent_rolling_ALL_Blocked shots_5,10514,0.5485756026296567
+opponent_rolling_ALL_Blocked shots_10,12146,0.6337263904831473
+opponent_rolling_std_ALL_Blocked shots_5,9095,0.4745382448085151
+opponent_rolling_ALL_Clearances_3,8298,0.43295418971094646
+opponent_rolling_ALL_Clearances_5,9193,0.4796514661379526
+opponent_rolling_ALL_Clearances_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Clearances_5,7792,0.4065532714181363
+opponent_rolling_ALL_Corner kicks_3,11318,0.5905248878221852
+opponent_rolling_ALL_Corner kicks_5,12212,0.6371699885213399
+opponent_rolling_ALL_Corner kicks_10,13587,0.7089116143170198
+opponent_rolling_std_ALL_Corner kicks_5,10867,0.5669936345612021
+opponent_rolling_ALL_Crosses_pct_3,8298,0.43295418971094646
+opponent_rolling_ALL_Crosses_pct_5,9193,0.4796514661379526
+opponent_rolling_ALL_Crosses_pct_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Crosses_pct_5,7792,0.4065532714181363
+opponent_rolling_ALL_Crosses_total_3,8298,0.43295418971094646
+opponent_rolling_ALL_Crosses_total_5,9193,0.4796514661379526
+opponent_rolling_ALL_Crosses_total_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Crosses_total_5,7792,0.4065532714181363
+opponent_rolling_ALL_Crosses_won_3,8298,0.43295418971094646
+opponent_rolling_ALL_Crosses_won_5,9193,0.4796514661379526
+opponent_rolling_ALL_Crosses_won_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Crosses_won_5,7792,0.4065532714181363
+opponent_rolling_ALL_Dispossessed_3,8298,0.43295418971094646
+opponent_rolling_ALL_Dispossessed_5,9193,0.4796514661379526
+opponent_rolling_ALL_Dispossessed_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Dispossessed_5,7792,0.4065532714181363
+opponent_rolling_ALL_Distance covered_3,0,0.0
+opponent_rolling_ALL_Distance covered_5,0,0.0
+opponent_rolling_ALL_Distance covered_10,0,0.0
+opponent_rolling_std_ALL_Distance covered_5,0,0.0
+opponent_rolling_ALL_Dribbles_pct_3,8298,0.43295418971094646
+opponent_rolling_ALL_Dribbles_pct_5,9193,0.4796514661379526
+opponent_rolling_ALL_Dribbles_pct_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Dribbles_pct_5,7792,0.4065532714181363
+opponent_rolling_ALL_Dribbles_total_3,8298,0.43295418971094646
+opponent_rolling_ALL_Dribbles_total_5,9193,0.4796514661379526
+opponent_rolling_ALL_Dribbles_total_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Dribbles_total_5,7792,0.4065532714181363
+opponent_rolling_ALL_Dribbles_won_3,8298,0.43295418971094646
+opponent_rolling_ALL_Dribbles_won_5,9193,0.4796514661379526
+opponent_rolling_ALL_Dribbles_won_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Dribbles_won_5,7792,0.4065532714181363
+opponent_rolling_ALL_Duels_3,8977,0.46838150892204944
+opponent_rolling_ALL_Duels_5,10020,0.5228007930710633
+opponent_rolling_ALL_Duels_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Duels_5,8508,0.4439110925597412
+opponent_rolling_ALL_Errors lead to a goal_3,2047,0.10680371491182301
+opponent_rolling_ALL_Errors lead to a goal_5,2759,0.14395283314202234
+opponent_rolling_ALL_Errors lead to a goal_10,3904,0.20369404153187937
+opponent_rolling_std_ALL_Errors lead to a goal_5,1001,0.05222790357925493
+opponent_rolling_ALL_Errors lead to a shot_3,2926,0.15266617969320673
+opponent_rolling_ALL_Errors lead to a shot_5,3629,0.1893457163727434
+opponent_rolling_ALL_Errors lead to a shot_10,4829,0.25195658979442764
+opponent_rolling_std_ALL_Errors lead to a shot_5,2099,0.109516852760096
+opponent_rolling_ALL_Expected goals_3,1989,0.10377752269644161
+opponent_rolling_ALL_Expected goals_5,2263,0.11807367212772618
+opponent_rolling_ALL_Expected goals_10,2746,0.1432745486799541
+opponent_rolling_std_ALL_Expected goals_5,1784,0.09308149848690389
+opponent_rolling_ALL_Final third entries_3,8262,0.43107586350829596
+opponent_rolling_ALL_Final third entries_5,9175,0.4787123030366274
+opponent_rolling_ALL_Final third entries_10,10729,0.5597933841177084
+opponent_rolling_std_ALL_Final third entries_5,7756,0.40467494521548575
+opponent_rolling_ALL_Final third phase_pct_3,4264,0.22247730355838463
+opponent_rolling_ALL_Final third phase_pct_5,4873,0.2542523218198894
+opponent_rolling_ALL_Final third phase_pct_10,6115,0.31905457581133256
+opponent_rolling_std_ALL_Final third phase_pct_5,4023,0.2099029531461964
+opponent_rolling_ALL_Final third phase_total_3,4264,0.22247730355838463
+opponent_rolling_ALL_Final third phase_total_5,4873,0.2542523218198894
+opponent_rolling_ALL_Final third phase_total_10,6115,0.31905457581133256
+opponent_rolling_std_ALL_Final third phase_total_5,4023,0.2099029531461964
+opponent_rolling_ALL_Final third phase_won_3,4264,0.22247730355838463
+opponent_rolling_ALL_Final third phase_won_5,4873,0.2542523218198894
+opponent_rolling_ALL_Final third phase_won_10,6115,0.31905457581133256
+opponent_rolling_std_ALL_Final third phase_won_5,4023,0.2099029531461964
+opponent_rolling_ALL_Fouled in final third_3,8244,0.43013670040697066
+opponent_rolling_ALL_Fouled in final third_5,9166,0.47824272148596475
+opponent_rolling_ALL_Fouled in final third_10,10716,0.5591150996556402
+opponent_rolling_std_ALL_Fouled in final third_5,7727,0.40316184910779507
+opponent_rolling_ALL_Fouls_3,11224,0.5856203694041532
+opponent_rolling_ALL_Fouls_5,12169,0.6349264322237296
+opponent_rolling_ALL_Fouls_10,13572,0.7081289783992487
+opponent_rolling_std_ALL_Fouls_5,10749,0.5608368986747365
+opponent_rolling_ALL_Free kicks_3,11246,0.586768235416884
+opponent_rolling_ALL_Free kicks_5,12171,0.6350307836794323
+opponent_rolling_ALL_Free kicks_10,13570,0.7080246269435458
+opponent_rolling_std_ALL_Free kicks_5,10755,0.5611499530418449
+opponent_rolling_ALL_Goal kicks_3,11238,0.5863508295940728
+opponent_rolling_ALL_Goal kicks_5,12167,0.6348220807680267
+opponent_rolling_ALL_Goal kicks_10,13569,0.7079724512156944
+opponent_rolling_std_ALL_Goal kicks_5,10747,0.5607325472190337
+opponent_rolling_ALL_Goalkeeper saves_3,11206,0.5846812063028279
+opponent_rolling_ALL_Goalkeeper saves_5,12142,0.6335176875717417
+opponent_rolling_ALL_Goalkeeper saves_10,13542,0.7065637065637066
+opponent_rolling_std_ALL_Goalkeeper saves_5,10711,0.5588542210163832
+opponent_rolling_ALL_Goals prevented_3,710,0.0370447667744965
+opponent_rolling_ALL_Goals prevented_5,900,0.04695815506626318
+opponent_rolling_ALL_Goals prevented_10,1340,0.06991547532088073
+opponent_rolling_std_ALL_Goals prevented_5,651,0.0339663988312637
+opponent_rolling_ALL_Ground duels_pct_3,8978,0.46843368464990087
+opponent_rolling_ALL_Ground duels_pct_5,10020,0.5228007930710633
+opponent_rolling_ALL_Ground duels_pct_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Ground duels_pct_5,8509,0.44396326828759264
+opponent_rolling_ALL_Ground duels_total_3,8978,0.46843368464990087
+opponent_rolling_ALL_Ground duels_total_5,10020,0.5228007930710633
+opponent_rolling_ALL_Ground duels_total_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Ground duels_total_5,8509,0.44396326828759264
+opponent_rolling_ALL_Ground duels_won_3,8978,0.46843368464990087
+opponent_rolling_ALL_Ground duels_won_5,10020,0.5228007930710633
+opponent_rolling_ALL_Ground duels_won_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Ground duels_won_5,8509,0.44396326828759264
+opponent_rolling_ALL_High claims_3,3863,0.20155483668997182
+opponent_rolling_ALL_High claims_5,4573,0.23859960346446832
+opponent_rolling_ALL_High claims_10,5830,0.3041844933736826
+opponent_rolling_std_ALL_High claims_5,3361,0.17536262130856725
+opponent_rolling_ALL_Hit woodwork_3,9476,0.49441719711989984
+opponent_rolling_ALL_Hit woodwork_5,10485,0.547062506521966
+opponent_rolling_ALL_Hit woodwork_10,12126,0.6326828759261192
+opponent_rolling_std_ALL_Hit woodwork_5,9059,0.47265991860586454
+opponent_rolling_ALL_Interceptions_3,8298,0.43295418971094646
+opponent_rolling_ALL_Interceptions_5,9193,0.4796514661379526
+opponent_rolling_ALL_Interceptions_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Interceptions_5,7792,0.4065532714181363
+opponent_rolling_ALL_Long balls_pct_3,8298,0.43295418971094646
+opponent_rolling_ALL_Long balls_pct_5,9193,0.4796514661379526
+opponent_rolling_ALL_Long balls_pct_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Long balls_pct_5,7792,0.4065532714181363
+opponent_rolling_ALL_Long balls_total_3,8298,0.43295418971094646
+opponent_rolling_ALL_Long balls_total_5,9193,0.4796514661379526
+opponent_rolling_ALL_Long balls_total_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Long balls_total_5,7792,0.4065532714181363
+opponent_rolling_ALL_Long balls_won_3,8298,0.43295418971094646
+opponent_rolling_ALL_Long balls_won_5,9193,0.4796514661379526
+opponent_rolling_ALL_Long balls_won_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Long balls_won_5,7792,0.4065532714181363
+opponent_rolling_ALL_Number of sprints_3,1169,0.06099342585829072
+opponent_rolling_ALL_Number of sprints_5,1289,0.06725451320045915
+opponent_rolling_ALL_Number of sprints_10,1395,0.07278514035270792
+opponent_rolling_std_ALL_Number of sprints_5,1009,0.05264530940206616
+opponent_rolling_ALL_Offsides_3,11171,0.5828550558280288
+opponent_rolling_ALL_Offsides_5,12119,0.6323176458311593
+opponent_rolling_ALL_Offsides_10,13542,0.7065637065637066
+opponent_rolling_std_ALL_Offsides_5,10638,0.5550453928832307
+opponent_rolling_ALL_Passes_3,8978,0.46843368464990087
+opponent_rolling_ALL_Passes_5,10020,0.5228007930710633
+opponent_rolling_ALL_Passes_10,11708,0.6108734216842325
+opponent_rolling_std_ALL_Passes_5,8509,0.44396326828759264
+opponent_rolling_ALL_Penalty saves_3,386,0.02013983095064176
+opponent_rolling_ALL_Penalty saves_5,597,0.031148909527287907
+opponent_rolling_ALL_Penalty saves_10,1035,0.05400187832620265
+opponent_rolling_std_ALL_Penalty saves_5,63,0.003287070854638422
+opponent_rolling_ALL_Punches_3,3415,0.17818011061254305
+opponent_rolling_ALL_Punches_5,4171,0.2176249608682041
+opponent_rolling_ALL_Punches_10,5444,0.28404466242304083
+opponent_rolling_std_ALL_Punches_5,2709,0.14134404674945217
+opponent_rolling_ALL_Recoveries_3,5780,0.3015757069811124
+opponent_rolling_ALL_Recoveries_5,6533,0.34086403005321925
+opponent_rolling_ALL_Recoveries_10,8027,0.4188145674632161
+opponent_rolling_std_ALL_Recoveries_5,5321,0.2776270478973182
+opponent_rolling_ALL_Red cards_3,6235,0.32531566315350097
+opponent_rolling_ALL_Red cards_5,8013,0.4180841072732965
+opponent_rolling_ALL_Red cards_10,10480,0.5468016278827089
+opponent_rolling_std_ALL_Red cards_5,4340,0.2264426588750913
+opponent_rolling_ALL_Shots inside box_3,9478,0.49452154857560265
+opponent_rolling_ALL_Shots inside box_5,10494,0.5475320880726287
+opponent_rolling_ALL_Shots inside box_10,12140,0.6334133361160388
+opponent_rolling_std_ALL_Shots inside box_5,9054,0.47239903996660754
+opponent_rolling_ALL_Shots off target_3,11239,0.5864030053219242
+opponent_rolling_ALL_Shots off target_5,12166,0.6347699050401753
+opponent_rolling_ALL_Shots off target_10,13571,0.7080768026713973
+opponent_rolling_std_ALL_Shots off target_5,10750,0.560889074402588
+opponent_rolling_ALL_Shots on target_3,11246,0.586768235416884
+opponent_rolling_ALL_Shots on target_5,12169,0.6349264322237296
+opponent_rolling_ALL_Shots on target_10,13571,0.7080768026713973
+opponent_rolling_std_ALL_Shots on target_5,10756,0.5612021287696963
+opponent_rolling_ALL_Shots outside box_3,9478,0.49452154857560265
+opponent_rolling_ALL_Shots outside box_5,10494,0.5475320880726287
+opponent_rolling_ALL_Shots outside box_10,12140,0.6334133361160388
+opponent_rolling_std_ALL_Shots outside box_5,9054,0.47239903996660754
+opponent_rolling_ALL_Tackles_3,8298,0.43295418971094646
+opponent_rolling_ALL_Tackles_5,9193,0.4796514661379526
+opponent_rolling_ALL_Tackles_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Tackles_5,7792,0.4065532714181363
+opponent_rolling_ALL_Tackles won_pct_3,8261,0.43102368778044453
+opponent_rolling_ALL_Tackles won_pct_5,9175,0.4787123030366274
+opponent_rolling_ALL_Tackles won_pct_10,10729,0.5597933841177084
+opponent_rolling_std_ALL_Tackles won_pct_5,7755,0.40462276948763437
+opponent_rolling_ALL_Tackles won_total_3,8261,0.43102368778044453
+opponent_rolling_ALL_Tackles won_total_5,9175,0.4787123030366274
+opponent_rolling_ALL_Tackles won_total_10,10729,0.5597933841177084
+opponent_rolling_std_ALL_Tackles won_total_5,7755,0.40462276948763437
+opponent_rolling_ALL_Tackles won_won_3,8261,0.43102368778044453
+opponent_rolling_ALL_Tackles won_won_5,9175,0.4787123030366274
+opponent_rolling_ALL_Tackles won_won_10,10729,0.5597933841177084
+opponent_rolling_std_ALL_Tackles won_won_5,7755,0.40462276948763437
+opponent_rolling_ALL_Through balls_3,7352,0.38359595116351874
+opponent_rolling_ALL_Through balls_5,8761,0.4571115517061463
+opponent_rolling_ALL_Through balls_10,10786,0.5627674006052384
+opponent_rolling_std_ALL_Through balls_5,6101,0.31832411562141294
+opponent_rolling_ALL_Throw-ins_3,11238,0.5863508295940728
+opponent_rolling_ALL_Throw-ins_5,12167,0.6348220807680267
+opponent_rolling_ALL_Throw-ins_10,13569,0.7079724512156944
+opponent_rolling_std_ALL_Throw-ins_5,10747,0.5607325472190337
+opponent_rolling_ALL_Total saves_3,11206,0.5846812063028279
+opponent_rolling_ALL_Total saves_5,12142,0.6335176875717417
+opponent_rolling_ALL_Total saves_10,13542,0.7065637065637066
+opponent_rolling_std_ALL_Total saves_5,10711,0.5588542210163832
+opponent_rolling_ALL_Total shots_3,10600,0.5530627152248774
+opponent_rolling_ALL_Total shots_5,11488,0.5993947615569237
+opponent_rolling_ALL_Total shots_10,12885,0.6722842533653345
+opponent_rolling_std_ALL_Total shots_5,10128,0.5284357716790149
+opponent_rolling_ALL_Total tackles_3,8298,0.43295418971094646
+opponent_rolling_ALL_Total tackles_5,9193,0.4796514661379526
+opponent_rolling_ALL_Total tackles_10,10740,0.5603673171240738
+opponent_rolling_std_ALL_Total tackles_5,7792,0.4065532714181363
+opponent_rolling_ALL_Touches in penalty area_3,4215,0.21992069289366586
+opponent_rolling_ALL_Touches in penalty area_5,4803,0.25060002087029115
+opponent_rolling_ALL_Touches in penalty area_10,6006,0.3133674214755296
+opponent_rolling_std_ALL_Touches in penalty area_5,3991,0.20823332985495147
+opponent_rolling_ALL_Yellow cards_3,11226,0.5857247208598559
+opponent_rolling_ALL_Yellow cards_5,12112,0.6319524157361995
+opponent_rolling_ALL_Yellow cards_10,13473,0.7029635813419597
+opponent_rolling_std_ALL_Yellow cards_5,10724,0.5595325054784515
+opponent_rolling_against_ALL_Accurate passes_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Accurate passes_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Accurate passes_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Accurate passes_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Aerial duels_pct_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Aerial duels_pct_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Aerial duels_pct_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Aerial duels_pct_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Aerial duels_total_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Aerial duels_total_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Aerial duels_total_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Aerial duels_total_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Aerial duels_won_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Aerial duels_won_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Aerial duels_won_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Aerial duels_won_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Ball possession_3,11208,0.5847855577585307
+opponent_rolling_against_ALL_Ball possession_5,12154,0.6341437963059585
+opponent_rolling_against_ALL_Ball possession_10,13568,0.7079202754878431
+opponent_rolling_std_against_ALL_Ball possession_5,10704,0.5584889909214233
+opponent_rolling_against_ALL_Big chances_3,8067,0.4209015965772723
+opponent_rolling_against_ALL_Big chances_5,8939,0.46639883126369613
+opponent_rolling_against_ALL_Big chances_10,10410,0.5431493269331107
+opponent_rolling_std_against_ALL_Big chances_5,7551,0.39397892100594806
+opponent_rolling_against_ALL_Big chances missed_3,7857,0.4099446937284775
+opponent_rolling_against_ALL_Big chances missed_5,8764,0.4572680788897005
+opponent_rolling_against_ALL_Big chances missed_10,10236,0.5340707502869665
+opponent_rolling_std_against_ALL_Big chances missed_5,7247,0.37811749973912134
+opponent_rolling_against_ALL_Big chances scored_3,7642,0.3987269122404258
+opponent_rolling_against_ALL_Big chances scored_5,8626,0.4500678284462068
+opponent_rolling_against_ALL_Big chances scored_10,10167,0.5304706250652197
+opponent_rolling_std_against_ALL_Big chances scored_5,6856,0.3577167901492226
+opponent_rolling_against_ALL_Big saves_3,3626,0.1891891891891892
+opponent_rolling_against_ALL_Big saves_5,4326,0.22571219868517164
+opponent_rolling_against_ALL_Big saves_10,5589,0.2916101429614943
+opponent_rolling_std_against_ALL_Big saves_5,3059,0.15960555149744338
+opponent_rolling_against_ALL_Blocked shots_3,9514,0.49639987477825315
+opponent_rolling_against_ALL_Blocked shots_5,10514,0.5485756026296567
+opponent_rolling_against_ALL_Blocked shots_10,12146,0.6337263904831473
+opponent_rolling_std_against_ALL_Blocked shots_5,9095,0.4745382448085151
+opponent_rolling_against_ALL_Clearances_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Clearances_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Clearances_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Clearances_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Corner kicks_3,11318,0.5905248878221852
+opponent_rolling_against_ALL_Corner kicks_5,12212,0.6371699885213399
+opponent_rolling_against_ALL_Corner kicks_10,13587,0.7089116143170198
+opponent_rolling_std_against_ALL_Corner kicks_5,10867,0.5669936345612021
+opponent_rolling_against_ALL_Crosses_pct_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Crosses_pct_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Crosses_pct_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Crosses_pct_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Crosses_total_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Crosses_total_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Crosses_total_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Crosses_total_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Crosses_won_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Crosses_won_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Crosses_won_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Crosses_won_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Dispossessed_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Dispossessed_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Dispossessed_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Dispossessed_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Distance covered_3,0,0.0
+opponent_rolling_against_ALL_Distance covered_5,0,0.0
+opponent_rolling_against_ALL_Distance covered_10,0,0.0
+opponent_rolling_std_against_ALL_Distance covered_5,0,0.0
+opponent_rolling_against_ALL_Dribbles_pct_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Dribbles_pct_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Dribbles_pct_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Dribbles_pct_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Dribbles_total_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Dribbles_total_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Dribbles_total_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Dribbles_total_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Dribbles_won_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Dribbles_won_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Dribbles_won_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Dribbles_won_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Duels_3,8977,0.46838150892204944
+opponent_rolling_against_ALL_Duels_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Duels_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Duels_5,8508,0.4439110925597412
+opponent_rolling_against_ALL_Errors lead to a goal_3,2047,0.10680371491182301
+opponent_rolling_against_ALL_Errors lead to a goal_5,2759,0.14395283314202234
+opponent_rolling_against_ALL_Errors lead to a goal_10,3904,0.20369404153187937
+opponent_rolling_std_against_ALL_Errors lead to a goal_5,1001,0.05222790357925493
+opponent_rolling_against_ALL_Errors lead to a shot_3,2926,0.15266617969320673
+opponent_rolling_against_ALL_Errors lead to a shot_5,3629,0.1893457163727434
+opponent_rolling_against_ALL_Errors lead to a shot_10,4829,0.25195658979442764
+opponent_rolling_std_against_ALL_Errors lead to a shot_5,2099,0.109516852760096
+opponent_rolling_against_ALL_Expected goals_3,1989,0.10377752269644161
+opponent_rolling_against_ALL_Expected goals_5,2263,0.11807367212772618
+opponent_rolling_against_ALL_Expected goals_10,2746,0.1432745486799541
+opponent_rolling_std_against_ALL_Expected goals_5,1784,0.09308149848690389
+opponent_rolling_against_ALL_Final third entries_3,8262,0.43107586350829596
+opponent_rolling_against_ALL_Final third entries_5,9175,0.4787123030366274
+opponent_rolling_against_ALL_Final third entries_10,10729,0.5597933841177084
+opponent_rolling_std_against_ALL_Final third entries_5,7756,0.40467494521548575
+opponent_rolling_against_ALL_Final third phase_pct_3,4264,0.22247730355838463
+opponent_rolling_against_ALL_Final third phase_pct_5,4873,0.2542523218198894
+opponent_rolling_against_ALL_Final third phase_pct_10,6115,0.31905457581133256
+opponent_rolling_std_against_ALL_Final third phase_pct_5,4023,0.2099029531461964
+opponent_rolling_against_ALL_Final third phase_total_3,4264,0.22247730355838463
+opponent_rolling_against_ALL_Final third phase_total_5,4873,0.2542523218198894
+opponent_rolling_against_ALL_Final third phase_total_10,6115,0.31905457581133256
+opponent_rolling_std_against_ALL_Final third phase_total_5,4023,0.2099029531461964
+opponent_rolling_against_ALL_Final third phase_won_3,4264,0.22247730355838463
+opponent_rolling_against_ALL_Final third phase_won_5,4873,0.2542523218198894
+opponent_rolling_against_ALL_Final third phase_won_10,6115,0.31905457581133256
+opponent_rolling_std_against_ALL_Final third phase_won_5,4023,0.2099029531461964
+opponent_rolling_against_ALL_Fouled in final third_3,8244,0.43013670040697066
+opponent_rolling_against_ALL_Fouled in final third_5,9166,0.47824272148596475
+opponent_rolling_against_ALL_Fouled in final third_10,10716,0.5591150996556402
+opponent_rolling_std_against_ALL_Fouled in final third_5,7727,0.40316184910779507
+opponent_rolling_against_ALL_Fouls_3,11224,0.5856203694041532
+opponent_rolling_against_ALL_Fouls_5,12169,0.6349264322237296
+opponent_rolling_against_ALL_Fouls_10,13572,0.7081289783992487
+opponent_rolling_std_against_ALL_Fouls_5,10749,0.5608368986747365
+opponent_rolling_against_ALL_Free kicks_3,11246,0.586768235416884
+opponent_rolling_against_ALL_Free kicks_5,12171,0.6350307836794323
+opponent_rolling_against_ALL_Free kicks_10,13570,0.7080246269435458
+opponent_rolling_std_against_ALL_Free kicks_5,10755,0.5611499530418449
+opponent_rolling_against_ALL_Goal kicks_3,11238,0.5863508295940728
+opponent_rolling_against_ALL_Goal kicks_5,12167,0.6348220807680267
+opponent_rolling_against_ALL_Goal kicks_10,13569,0.7079724512156944
+opponent_rolling_std_against_ALL_Goal kicks_5,10747,0.5607325472190337
+opponent_rolling_against_ALL_Goalkeeper saves_3,11206,0.5846812063028279
+opponent_rolling_against_ALL_Goalkeeper saves_5,12142,0.6335176875717417
+opponent_rolling_against_ALL_Goalkeeper saves_10,13542,0.7065637065637066
+opponent_rolling_std_against_ALL_Goalkeeper saves_5,10711,0.5588542210163832
+opponent_rolling_against_ALL_Goals prevented_3,710,0.0370447667744965
+opponent_rolling_against_ALL_Goals prevented_5,900,0.04695815506626318
+opponent_rolling_against_ALL_Goals prevented_10,1340,0.06991547532088073
+opponent_rolling_std_against_ALL_Goals prevented_5,651,0.0339663988312637
+opponent_rolling_against_ALL_Ground duels_pct_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Ground duels_pct_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Ground duels_pct_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Ground duels_pct_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Ground duels_total_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Ground duels_total_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Ground duels_total_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Ground duels_total_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Ground duels_won_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Ground duels_won_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Ground duels_won_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Ground duels_won_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_High claims_3,3863,0.20155483668997182
+opponent_rolling_against_ALL_High claims_5,4573,0.23859960346446832
+opponent_rolling_against_ALL_High claims_10,5830,0.3041844933736826
+opponent_rolling_std_against_ALL_High claims_5,3361,0.17536262130856725
+opponent_rolling_against_ALL_Hit woodwork_3,9476,0.49441719711989984
+opponent_rolling_against_ALL_Hit woodwork_5,10485,0.547062506521966
+opponent_rolling_against_ALL_Hit woodwork_10,12126,0.6326828759261192
+opponent_rolling_std_against_ALL_Hit woodwork_5,9059,0.47265991860586454
+opponent_rolling_against_ALL_Interceptions_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Interceptions_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Interceptions_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Interceptions_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Long balls_pct_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Long balls_pct_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Long balls_pct_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Long balls_pct_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Long balls_total_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Long balls_total_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Long balls_total_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Long balls_total_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Long balls_won_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Long balls_won_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Long balls_won_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Long balls_won_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Number of sprints_3,1169,0.06099342585829072
+opponent_rolling_against_ALL_Number of sprints_5,1289,0.06725451320045915
+opponent_rolling_against_ALL_Number of sprints_10,1395,0.07278514035270792
+opponent_rolling_std_against_ALL_Number of sprints_5,1009,0.05264530940206616
+opponent_rolling_against_ALL_Offsides_3,11171,0.5828550558280288
+opponent_rolling_against_ALL_Offsides_5,12119,0.6323176458311593
+opponent_rolling_against_ALL_Offsides_10,13542,0.7065637065637066
+opponent_rolling_std_against_ALL_Offsides_5,10638,0.5550453928832307
+opponent_rolling_against_ALL_Passes_3,8978,0.46843368464990087
+opponent_rolling_against_ALL_Passes_5,10020,0.5228007930710633
+opponent_rolling_against_ALL_Passes_10,11708,0.6108734216842325
+opponent_rolling_std_against_ALL_Passes_5,8509,0.44396326828759264
+opponent_rolling_against_ALL_Penalty saves_3,386,0.02013983095064176
+opponent_rolling_against_ALL_Penalty saves_5,597,0.031148909527287907
+opponent_rolling_against_ALL_Penalty saves_10,1035,0.05400187832620265
+opponent_rolling_std_against_ALL_Penalty saves_5,63,0.003287070854638422
+opponent_rolling_against_ALL_Punches_3,3415,0.17818011061254305
+opponent_rolling_against_ALL_Punches_5,4171,0.2176249608682041
+opponent_rolling_against_ALL_Punches_10,5444,0.28404466242304083
+opponent_rolling_std_against_ALL_Punches_5,2709,0.14134404674945217
+opponent_rolling_against_ALL_Recoveries_3,5780,0.3015757069811124
+opponent_rolling_against_ALL_Recoveries_5,6533,0.34086403005321925
+opponent_rolling_against_ALL_Recoveries_10,8027,0.4188145674632161
+opponent_rolling_std_against_ALL_Recoveries_5,5321,0.2776270478973182
+opponent_rolling_against_ALL_Red cards_3,6235,0.32531566315350097
+opponent_rolling_against_ALL_Red cards_5,8013,0.4180841072732965
+opponent_rolling_against_ALL_Red cards_10,10480,0.5468016278827089
+opponent_rolling_std_against_ALL_Red cards_5,4340,0.2264426588750913
+opponent_rolling_against_ALL_Shots inside box_3,9478,0.49452154857560265
+opponent_rolling_against_ALL_Shots inside box_5,10494,0.5475320880726287
+opponent_rolling_against_ALL_Shots inside box_10,12140,0.6334133361160388
+opponent_rolling_std_against_ALL_Shots inside box_5,9054,0.47239903996660754
+opponent_rolling_against_ALL_Shots off target_3,11239,0.5864030053219242
+opponent_rolling_against_ALL_Shots off target_5,12166,0.6347699050401753
+opponent_rolling_against_ALL_Shots off target_10,13571,0.7080768026713973
+opponent_rolling_std_against_ALL_Shots off target_5,10750,0.560889074402588
+opponent_rolling_against_ALL_Shots on target_3,11246,0.586768235416884
+opponent_rolling_against_ALL_Shots on target_5,12169,0.6349264322237296
+opponent_rolling_against_ALL_Shots on target_10,13571,0.7080768026713973
+opponent_rolling_std_against_ALL_Shots on target_5,10756,0.5612021287696963
+opponent_rolling_against_ALL_Shots outside box_3,9478,0.49452154857560265
+opponent_rolling_against_ALL_Shots outside box_5,10494,0.5475320880726287
+opponent_rolling_against_ALL_Shots outside box_10,12140,0.6334133361160388
+opponent_rolling_std_against_ALL_Shots outside box_5,9054,0.47239903996660754
+opponent_rolling_against_ALL_Tackles_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Tackles_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Tackles_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Tackles_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Tackles won_pct_3,8261,0.43102368778044453
+opponent_rolling_against_ALL_Tackles won_pct_5,9175,0.4787123030366274
+opponent_rolling_against_ALL_Tackles won_pct_10,10729,0.5597933841177084
+opponent_rolling_std_against_ALL_Tackles won_pct_5,7755,0.40462276948763437
+opponent_rolling_against_ALL_Tackles won_total_3,8261,0.43102368778044453
+opponent_rolling_against_ALL_Tackles won_total_5,9175,0.4787123030366274
+opponent_rolling_against_ALL_Tackles won_total_10,10729,0.5597933841177084
+opponent_rolling_std_against_ALL_Tackles won_total_5,7755,0.40462276948763437
+opponent_rolling_against_ALL_Tackles won_won_3,8261,0.43102368778044453
+opponent_rolling_against_ALL_Tackles won_won_5,9175,0.4787123030366274
+opponent_rolling_against_ALL_Tackles won_won_10,10729,0.5597933841177084
+opponent_rolling_std_against_ALL_Tackles won_won_5,7755,0.40462276948763437
+opponent_rolling_against_ALL_Through balls_3,7352,0.38359595116351874
+opponent_rolling_against_ALL_Through balls_5,8761,0.4571115517061463
+opponent_rolling_against_ALL_Through balls_10,10786,0.5627674006052384
+opponent_rolling_std_against_ALL_Through balls_5,6101,0.31832411562141294
+opponent_rolling_against_ALL_Throw-ins_3,11238,0.5863508295940728
+opponent_rolling_against_ALL_Throw-ins_5,12167,0.6348220807680267
+opponent_rolling_against_ALL_Throw-ins_10,13569,0.7079724512156944
+opponent_rolling_std_against_ALL_Throw-ins_5,10747,0.5607325472190337
+opponent_rolling_against_ALL_Total saves_3,11206,0.5846812063028279
+opponent_rolling_against_ALL_Total saves_5,12142,0.6335176875717417
+opponent_rolling_against_ALL_Total saves_10,13542,0.7065637065637066
+opponent_rolling_std_against_ALL_Total saves_5,10711,0.5588542210163832
+opponent_rolling_against_ALL_Total shots_3,10600,0.5530627152248774
+opponent_rolling_against_ALL_Total shots_5,11488,0.5993947615569237
+opponent_rolling_against_ALL_Total shots_10,12885,0.6722842533653345
+opponent_rolling_std_against_ALL_Total shots_5,10128,0.5284357716790149
+opponent_rolling_against_ALL_Total tackles_3,8298,0.43295418971094646
+opponent_rolling_against_ALL_Total tackles_5,9193,0.4796514661379526
+opponent_rolling_against_ALL_Total tackles_10,10740,0.5603673171240738
+opponent_rolling_std_against_ALL_Total tackles_5,7792,0.4065532714181363
+opponent_rolling_against_ALL_Touches in penalty area_3,4215,0.21992069289366586
+opponent_rolling_against_ALL_Touches in penalty area_5,4803,0.25060002087029115
+opponent_rolling_against_ALL_Touches in penalty area_10,6006,0.3133674214755296
+opponent_rolling_std_against_ALL_Touches in penalty area_5,3991,0.20823332985495147
+opponent_rolling_against_ALL_Yellow cards_3,11226,0.5857247208598559
+opponent_rolling_against_ALL_Yellow cards_5,12112,0.6319524157361995
+opponent_rolling_against_ALL_Yellow cards_10,13473,0.7029635813419597
+opponent_rolling_std_against_ALL_Yellow cards_5,10724,0.5595325054784515

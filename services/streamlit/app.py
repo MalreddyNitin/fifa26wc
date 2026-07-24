@@ -6,8 +6,20 @@ import plotly.express as px
 import requests
 import streamlit as st
 
+from world_cup_intelligence.inference import PredictionService
+from world_cup_intelligence.prematch import PrematchLookupError
+
 ROOT = Path(__file__).resolve().parents[2]
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+API_BASE_URL = os.getenv("API_BASE_URL")
+ARTIFACT_ROOT = Path(
+    os.getenv(
+        "WCI_ARTIFACT_ROOT",
+        ROOT
+        if (ROOT / "data/canonical/dim_teams.parquet").exists()
+        else ROOT / "deployment",
+    )
+)
+DATA_ROOT = ARTIFACT_ROOT / "data"
 st.set_page_config(
     page_title="World Cup Intelligence",
     page_icon="⚽",
@@ -17,14 +29,19 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    teams = pd.read_parquet(ROOT / "data/canonical/dim_teams.parquet")
-    matches = pd.read_parquet(ROOT / "data/canonical/fct_matches.parquet")
-    form = pd.read_parquet(ROOT / "data/features/team_match_feature_master.parquet")
-    tournament_path = ROOT / "data/predictions/tournament_probabilities.parquet"
+    teams = pd.read_parquet(DATA_ROOT / "canonical/dim_teams.parquet")
+    matches = pd.read_parquet(DATA_ROOT / "canonical/fct_matches.parquet")
+    form = pd.read_parquet(DATA_ROOT / "features/team_match_feature_master.parquet")
+    tournament_path = DATA_ROOT / "predictions/tournament_probabilities.parquet"
     tournament = (
         pd.read_parquet(tournament_path) if tournament_path.exists() else pd.DataFrame()
     )
     return teams, matches, form, tournament
+
+
+@st.cache_resource
+def prediction_service():
+    return PredictionService(ROOT, artifact_root=ARTIFACT_ROOT)
 
 
 st.title("World Cup Intelligence")
@@ -107,13 +124,18 @@ with predictor:
             st.warning("Enter a SofaScore match link.")
             st.stop()
         try:
-            response = requests.post(
-                f"{API_BASE_URL}/v1/predict-sofascore-link",
-                json={"sofascore_url": sofascore_url.strip()},
-                timeout=30,
-            )
-            response.raise_for_status()
-            prediction = response.json()
+            if API_BASE_URL:
+                response = requests.post(
+                    f"{API_BASE_URL}/v1/predict-sofascore-link",
+                    json={"sofascore_url": sofascore_url.strip()},
+                    timeout=30,
+                )
+                response.raise_for_status()
+                prediction = response.json()
+            else:
+                prediction = prediction_service().predict_sofascore_link(
+                    sofascore_url.strip()
+                )
             cols = st.columns(3)
             cols[0].metric("Home win", f"{prediction['home_win']:.1%}")
             cols[1].metric("Draw", f"{prediction['draw']:.1%}")
@@ -134,18 +156,23 @@ with predictor:
                 }
             )
             st.json(prediction)
-        except requests.RequestException as exc:
+        except (
+            requests.RequestException,
+            PrematchLookupError,
+            FileNotFoundError,
+            KeyError,
+        ) as exc:
             st.error(f"Prediction service unavailable: {exc}")
 
 with scorelines:
-    path = ROOT / "data/predictions/pred_scoreline_samples.parquet"
+    path = DATA_ROOT / "predictions/pred_scoreline_samples.parquet"
     if path.exists():
         st.dataframe(pd.read_parquet(path).tail(100), use_container_width=True)
     else:
         st.info("Train the scoreline model to populate this view.")
 
 with markets:
-    path = ROOT / "data/canonical/fct_odds_snapshots.parquet"
+    path = DATA_ROOT / "canonical/fct_odds_snapshots.parquet"
     if path.exists():
         st.dataframe(pd.read_parquet(path), use_container_width=True)
     else:
@@ -164,7 +191,7 @@ with performance:
     )
 
 with coverage:
-    coverage_path = ROOT / "data/features/feature_coverage_report.csv"
+    coverage_path = DATA_ROOT / "features/feature_coverage_report.csv"
     if coverage_path.exists():
         feature_coverage = pd.read_csv(coverage_path)
         st.metric("Historical matches", f"{len(matches):,}")
@@ -172,8 +199,15 @@ with coverage:
         st.dataframe(feature_coverage, use_container_width=True)
 
 with health:
-    run_log = ROOT / "data/run_logs/pipeline_run_log.json"
-    if run_log.exists():
+    manifest = ARTIFACT_ROOT / "manifest.json"
+    run_log = DATA_ROOT / "run_logs/pipeline_run_log.json"
+    if manifest.exists():
+        st.caption(
+            "This public app uses a versioned, compact inference snapshot; "
+            "the full data lake is not shipped with the web process."
+        )
+        st.json(manifest.read_text(encoding="utf-8"))
+    elif run_log.exists():
         st.json(run_log.read_text(encoding="utf-8"))
     else:
         st.warning("No pipeline run log is available.")

@@ -26,13 +26,13 @@ mlruns/
 streaming/checkpoints/
 
 # Generated exploratory tables
-matches_enriched.csv
-team_match_features.csv
-team_match_master_advanced.csv
-prematch_model_features.csv
-prematch_model_targets.csv
-feature_coverage_report.csv
-feature_redundancy_report.csv
+/matches_enriched.csv
+/team_match_features.csv
+/team_match_master_advanced.csv
+/prematch_model_features.csv
+/prematch_model_targets.csv
+/feature_coverage_report.csv
+/feature_redundancy_report.csv
 
 # Generated dbt state
 dbt/.user.yml

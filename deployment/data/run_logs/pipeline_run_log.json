@@ -1,0 +1,11 @@
+{
+  "run_id": "a0761274-1be2-4006-b3e7-11b80cd068df",
+  "started_at": "2026-07-17T23:13:53.658607+00:00",
+  "teams_succeeded": 0,
+  "teams_failed": 0,
+  "event_pages_fetched": 0,
+  "event_details_fetched": 0,
+  "errors": [],
+  "status": "success",
+  "finished_at": "2026-07-17T23:13:55.486300+00:00"
+}
