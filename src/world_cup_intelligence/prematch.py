@@ -10,6 +10,10 @@ from .canonical import classify_competition
 from .pipeline import normalize_country_name, safe_nested, timestamp_to_datetime
 
 SOFASCORE_HOSTS = {"sofascore.com", "www.sofascore.com"}
+SOFASCORE_EVENT_BASE_URLS = (
+    "https://api.sofascore.com/api/v1",
+    "https://www.sofascore.com/api/v1",
+)
 
 
 class PrematchLookupError(ValueError):
@@ -133,10 +137,10 @@ def event_from_payload(event_id, payload, home_country=None, away_country=None):
 
 def fetch_sofascore_event(event_id, retries=3, timeout=20):
     """Fetch only public event metadata; no in-match statistics are requested."""
-    url = f"https://www.sofascore.com/api/v1/event/{int(event_id)}"
     headers = {
         "accept": "application/json",
         "referer": "https://www.sofascore.com/",
+        "x-requested-with": "XMLHttpRequest",
         "user-agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 Chrome/149 Safari/537.36"
@@ -144,29 +148,47 @@ def fetch_sofascore_event(event_id, retries=3, timeout=20):
     }
     response = None
     for attempt in range(retries):
-        try:
-            response = requests.get(
-                url,
-                headers=headers,
-                impersonate="chrome",
-                timeout=timeout,
-            )
-        except requests.RequestsError as exc:
-            if attempt == retries - 1:
-                raise PrematchLookupError(f"Could not reach SofaScore: {exc}") from exc
-            time.sleep(2**attempt)
-            continue
-        if response.status_code == 200:
+        last_error = None
+        retryable = False
+        for base_url in SOFASCORE_EVENT_BASE_URLS:
+            url = f"{base_url}/event/{int(event_id)}"
             try:
-                return response.json()
-            except ValueError as exc:
-                raise PrematchLookupError("SofaScore returned invalid JSON") from exc
-        if response.status_code == 404:
-            raise PrematchLookupError(f"SofaScore event {event_id} was not found")
-        if response.status_code not in {429, 500, 502, 503, 504}:
+                response = requests.get(
+                    url,
+                    headers=headers,
+                    impersonate="chrome",
+                    timeout=timeout,
+                )
+            except requests.RequestsError as exc:
+                last_error = exc
+                retryable = True
+                continue
+            if response.status_code == 200:
+                try:
+                    return response.json()
+                except ValueError as exc:
+                    raise PrematchLookupError(
+                        "SofaScore returned invalid JSON"
+                    ) from exc
+            if response.status_code == 404:
+                raise PrematchLookupError(f"SofaScore event {event_id} was not found")
+            if response.status_code in {401, 403}:
+                continue
+            if response.status_code in {429, 500, 502, 503, 504}:
+                retryable = True
+                continue
             raise PrematchLookupError(
                 f"SofaScore event request failed with HTTP {response.status_code}"
             )
+        if not retryable:
+            status = response.status_code if response is not None else "unknown"
+            raise PrematchLookupError(
+                f"SofaScore event request failed with HTTP {status}"
+            )
+        if attempt == retries - 1 and last_error is not None and response is None:
+            raise PrematchLookupError(
+                f"Could not reach SofaScore: {last_error}"
+            ) from last_error
         if attempt < retries - 1:
             time.sleep(2**attempt)
     status = response.status_code if response is not None else "unknown"
